@@ -4,7 +4,7 @@ import Sobre from '../components/Sobre.jsx'
 import Diferenciais from '../components/Diferenciais.jsx'
 import Cronograma from '../components/Cronograma.jsx'
 import Participe from '../components/Participe.jsx'
-import Palestras from '../components/Palestras.jsx'
+import Palestrantes from '../components/Palestrantes.jsx'
 import ParticipeB from '../components/ParticipeB.jsx'
 import Parceiros from '../components/Parceiros.jsx'
 import Cadastro from '../components/Cadastro.jsx'
@@ -16,6 +16,7 @@ export default function Home() {
     <main>
       <Header />
       <Diferenciais />
+      <Palestrantes />
       <Parceiros />
     </main>
   )
