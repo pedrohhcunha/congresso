@@ -20,6 +20,7 @@ export default function Home() {
       <Diferenciais />
       <Cronograma />
       <Palestrantes />
+      <ParticipeB />
       <Parceiros />
     </main>
   )
