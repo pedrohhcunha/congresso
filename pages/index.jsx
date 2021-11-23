@@ -23,6 +23,7 @@ export default function Home() {
       <ParticipeB />
       <Parceiros />
       <Mapa />
+      <Footer />
     </main>
   )
 }
