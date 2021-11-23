@@ -19,6 +19,7 @@ export default function Home() {
       <Sobre />
       <Diferenciais />
       <Cronograma />
+      <Participe />
       <Palestrantes />
       <ParticipeB />
       <Parceiros />
