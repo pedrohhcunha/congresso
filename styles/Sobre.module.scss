@@ -1,0 +1,27 @@
+.section{
+    background-color: var(--blue);
+    width: 100%;
+    padding: 50px 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .areaImagem{
+        background-color: var(--purple);
+        width: 45%;
+        padding-top: calc((9 / 16) * 45%);
+        position: relative;
+    }
+    
+    .areaInfo{
+        width: 45%;
+
+        .p{
+            text-align: justify;
+            color: var(--white);
+            font-size: 18px;
+            margin-bottom: 20px;
+            line-height: 145%;
+        }
+    }
+}
