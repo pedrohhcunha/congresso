@@ -1,0 +1,55 @@
+.section{
+    width: 100%;
+    padding: 50px 5vw;
+    background-color: var(--white);
+    text-align: center;
+
+    .titulo{
+        color: var(--blue);
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+
+    .diferenciais{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 40px;
+
+        .diferencial{
+            width: 250px;
+            margin-bottom: 20px;
+
+            .areaIcon{
+                width: 100px;
+                height: 100px;
+                margin: 0 auto;
+                margin-bottom: 10px;
+                background-color: var(--lightBlue50);
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: var(--purple);
+                font-weight: 700;
+                font-size: 30px;
+            }
+
+            .tituloDiferencial{
+                font-size: 18px;
+                color: var(--blue);
+            }
+
+            .p{
+                color: var(--blue);
+                font-size: 14px;
+            }
+        }
+    }
+}
