@@ -1,0 +1,37 @@
+
+.section{
+    width: 100%;
+    padding: 50px 5vw;
+    background-color: var(--white);
+    text-align: center;
+
+    .titulo{
+        color: var(--blue);
+        font-size: 40px;
+        letter-spacing: 3px;
+        margin-bottom: 40px;
+    }
+
+    .parceiros{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .parceiro{
+            margin: 10px 20px;
+            width: 200px;
+            height: 110px;
+            box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+    }
+}
