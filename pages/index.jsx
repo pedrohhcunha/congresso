@@ -18,6 +18,7 @@ export default function Home() {
       <Inicio />
       <Sobre />
       <Diferenciais />
+      <Cronograma />
       <Palestrantes />
       <Parceiros />
     </main>
