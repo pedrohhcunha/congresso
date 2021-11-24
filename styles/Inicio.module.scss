@@ -35,4 +35,41 @@
             margin-top: 20px;
         }
     }
+
+    @media screen and (max-width: 1100px) {
+        .areaContent{
+            width: 100%;
+
+            .areaNome{
+
+                .numero{
+
+                    font-size: 200px;
+                }
+
+                .titulo{
+
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .areaContent{
+
+            .areaNome{
+
+                .numero{
+
+                    font-size: 100px;
+                }
+
+                .titulo{
+
+                    font-size: 30px;
+                }
+            }
+        }
+    }
 }
