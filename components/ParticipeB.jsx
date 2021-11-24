@@ -4,7 +4,7 @@ import Button from './Button'
 export default function ParticipeB(props) {
     return(
         <section className={styles.section}>
-            <h2 className={styles.titulo}>Participe desse eventou taura</h2>
+            <h2 className={styles.titulo}> Garanta a sua vaga no congresso! </h2>
             <Button>CTA BUTTON</Button>
         </section>
     )
