@@ -8,64 +8,37 @@ export default function Parceiros(props) {
             <h2 className={styles.titulo}>Texto da seção</h2>
             <div className={styles.parceiros}>
                 <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
+                    <a href="https://www.ufg.br/" rel="noreferrer" target="_blank">
                         <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
                     </a>
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
+                    <a href="https://www.ufg.br/" rel="noreferrer" target="_blank">
                         <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
                     </a>
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
+                    <a href="https://www.ufg.br/" rel="noreferrer" target="_blank">
                         <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
                     </a>
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
+                    <a href="https://www.ufg.br/" rel="noreferrer" target="_blank">
                         <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
                     </a>
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
+                    <a href="https://www.ufg.br/" rel="noreferrer" target="_blank">
                         <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
                     </a>
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
+                    <a href="https://www.ufg.br/" rel="noreferrer" target="_blank">
                         <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
                     </a>
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
-                        <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
-                    </a>
-                </div>
-                <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
-                        <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
-                    </a>
-                </div>
-
-                <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
-                        <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
-                    </a>
-                </div>
-                <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
-                        <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
-                    </a>
-                </div>
-
-                <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
-                        <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
-                    </a>
-                </div>
-                <div className={styles.parceiro}>
-                    <a href="https://www.ufg.br/" target="_blank">
+                    <a href="https://www.ufg.br/" rel="noreferrer" target="_blank">
                         <Image alt="Logo da empresa parceira do evento" src={ufg} className={styles.image} />
                     </a>
                 </div>
