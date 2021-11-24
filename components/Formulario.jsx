@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styles from '../styles/Formulario.module.scss'
+import axios from 'axios'
 
 export default function Formulario(props) {
 
@@ -17,6 +18,10 @@ export default function Formulario(props) {
     const handleSubmit = event => {
         event.preventDefault()
         console.log(dataForm)
+
+        axios.post('/api/convert', dataForm).then(response => {
+            console.log(response.data)
+        })
     }
 
     return(
