@@ -27,7 +27,7 @@ export default function Footer(props) {
             <div className={styles.realFooter}>
                 <h5 className={styles.span}>© 2021 Azeplast. Todos os direitos reservados.</h5>
                 <h5 className={styles.span}>
-                    <a href="">Termos e condições</a> | <a href="">Politica de privacidade</a> | <a href="">Sitemap</a>
+                    <a href="/">Termos e condições</a> | <a href="/">Politica de privacidade</a> | <a href="/">Sitemap</a>
                 </h5>
             </div>
         </footer>
