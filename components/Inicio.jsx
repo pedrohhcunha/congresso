@@ -1,7 +1,7 @@
 import styles from '../styles/Inicio.module.scss'
 export default function Inicio(props) {
     return(
-        <section className={styles.section}>
+        <section id="Inicio" className={styles.section}>
             <div className={styles.areaContent}>
                 <div className={styles.areaNome}>
                     <h1 className={styles.numero}>1°</h1>

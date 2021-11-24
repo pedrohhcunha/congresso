@@ -2,7 +2,7 @@ import styles from '../styles/Cronograma.module.scss'
 
 export default function Cronograma(props) {
     return(
-        <section className={styles.section}>
+        <section id="Cronograma" className={styles.section}>
             <div className={styles.subSection}>
                 <div className={styles.cardDia}>
                     <h3 className={styles.dia}>20/05</h3>

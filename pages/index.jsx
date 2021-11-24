@@ -13,7 +13,7 @@ import Footer from '../components/Footer.jsx'
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Header />
       <Inicio />
       <Sobre />
@@ -26,6 +26,6 @@ export default function Home() {
       <Cadastro />
       <Mapa />
       <Footer />
-    </main>
+    </>
   )
 }
