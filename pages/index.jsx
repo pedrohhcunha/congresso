@@ -10,10 +10,17 @@ import Parceiros from '../components/Parceiros.jsx'
 import Cadastro from '../components/Cadastro.jsx'
 import Mapa from '../components/Mapa.jsx'
 import Footer from '../components/Footer.jsx'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>1° Congresso Sul brasileiro de Inovação em Saúde</title>
+        <meta name="description" content="
+          Security, technology and sustainability in infection prevention and control.
+        " />
+      </Head>
       <Header />
       <Inicio />
       <Sobre />
