@@ -39,5 +39,27 @@
         .titulo{
             font-size: 30px;
         }
+
+        .parceiros{
+            justify-content: space-between;
+
+            .parceiro{
+                width: 30%;
+                height: 70px;
+                margin: 10px 0;
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .parceiros{
+
+            .parceiro{
+                width: 48%;
+                height: 70px;
+                margin: 10px 0;
+            }
+        }
     }
 }

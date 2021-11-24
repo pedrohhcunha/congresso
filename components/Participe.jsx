@@ -6,8 +6,8 @@ export default function Participe(props) {
         <section className={styles.section}>
             <div className={styles.content}>
                 <h2 className={styles.titulo}>Faça parte deste grande evento!</h2>
-                <p className={styles.p}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse aperiam magni mollitia necessitatibus ratione, voluptatibus et sunt voluptas minus, perspiciatis qui? Aperiam alias deserunt a, autem inventore sapiente iusto sequi.</p>
-                <Button>CTA BUTTON</Button>
+                <p className={styles.p}>Palestras; Mesas Redondas; Apresentação de trabalhos científicos; Apresentação Oral de Cases de Sucessos.</p>
+                <Button>Confirmar presença</Button>
             </div>
         </section>
     )
