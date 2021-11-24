@@ -3,9 +3,17 @@ import Link from 'next/link'
 import Button from './Button.jsx'
 import Image from 'next/image'
 import logoParaFundoBranco from '../public/images/logos/logoParaFundoBranco.png'
+import { useState, useEffect } from 'react'
+
 export default function Header(props) {
+    
+    const [scrollPosition, setScrollPosition] = useState(0);
+
+    useEffect(() => {
+        setScrollPosition(scrollPosition)
+    }, []);
     return(
-        <header className={styles.header}>
+        <header className={`${styles.header} ${scrollPosition >= 5 ? styles.scroll : ''}`}>
             <div className={styles.areaImg}>
                 <Image className={styles.imageHeader} src={logoParaFundoBranco} alt="Logo Oficial do evento"></Image>
             </div>
