@@ -14,7 +14,7 @@ export default function Header(props) {
     return(
         <header className={styles.header}>
             <div className={styles.areaImg}>
-                <Image className={styles.imageHeader} src={logoParaFundoBranco} alt="Logo Oficial do evento"></Image>
+                <Image className={styles.imageHeader} src={logoParaFundoBranco} alt="Logo Oficial do 1° Congresso Sul brasileiro de Inovação em Saúde"></Image>
             </div>
             <nav className={`${styles.nav} ${menuActive ? styles.active : ''}`}>
                 <ul className={styles.lista}>
