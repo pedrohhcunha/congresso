@@ -17,6 +17,9 @@
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:hover{
         filter: brightness(.8);
