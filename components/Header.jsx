@@ -38,7 +38,7 @@ export default function Header(props) {
                     </li>
                 </ul>
                 <div className={styles.areaButton} >
-                    <Button>CTA button</Button>
+                    <Button>Garantir a minha vaga</Button>
                 </div>
             </nav>
             <FontAwesomeIcon onClick={() => setMenuActive(!menuActive)} icon={faBars} className={styles.iconController}/>
