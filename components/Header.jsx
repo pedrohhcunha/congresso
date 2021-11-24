@@ -4,20 +4,19 @@ import Button from './Button.jsx'
 import Image from 'next/image'
 import logoParaFundoBranco from '../public/images/logos/logoParaFundoBranco.png'
 import { useState, useEffect } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header(props) {
-    
-    const [scrollPosition, setScrollPosition] = useState(0);
 
-    useEffect(() => {
-        setScrollPosition(scrollPosition)
-    }, []);
+    const [menuActive, setMenuActive] = useState(false);
+
     return(
-        <header className={`${styles.header} ${scrollPosition >= 5 ? styles.scroll : ''}`}>
+        <header className={styles.header}>
             <div className={styles.areaImg}>
                 <Image className={styles.imageHeader} src={logoParaFundoBranco} alt="Logo Oficial do evento"></Image>
             </div>
-            <nav className={styles.nav}>
+            <nav className={`${styles.nav} ${menuActive ? styles.active : ''}`}>
                 <ul className={styles.lista}>
                     <li className={styles.itemLista}>
                         <Link href="/#Inicio"><a>Inicio</a></Link>
@@ -38,8 +37,11 @@ export default function Header(props) {
                         <Link href="/#Parceiros"><a>Parceiros</a></Link>
                     </li>
                 </ul>
-                <Button>CTA button</Button>
+                <div className={styles.areaButton} >
+                    <Button>CTA button</Button>
+                </div>
             </nav>
+            <FontAwesomeIcon onClick={() => setMenuActive(!menuActive)} icon={faBars} className={styles.iconController}/>
         </header>
     )
 }
