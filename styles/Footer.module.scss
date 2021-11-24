@@ -40,4 +40,27 @@
             color: var(--purple);
         }
     }
+
+    @media screen and (max-width: 1100px) {
+        padding: 20px 5vw;
+        
+        .lista{
+            flex-wrap: wrap;
+
+            .itemLista{
+                width: 50%;
+                text-align: center;
+                padding: 5px 0;
+            }
+        }
+
+        .realFooter{
+            flex-wrap: wrap-reverse;
+            text-align: center;
+
+            .span{
+                padding: 10px 0;
+            }
+        }
+    }
 }
