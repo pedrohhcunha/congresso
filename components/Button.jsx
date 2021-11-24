@@ -3,8 +3,10 @@ import Link from 'next/link'
 
 export default function Button(props) {
     return(
-        <Link href="/#Cadastro">
-            <a className={styles.button}>{props.children}</a>
-        </Link>
+        <button className={styles.button}>
+            <Link href="/#Cadastro">
+                <a>{props.children}</a>
+            </Link>
+        </button>
     )
 }
