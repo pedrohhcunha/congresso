@@ -23,6 +23,7 @@ export default function Home() {
       <Palestrantes />
       <ParticipeB />
       <Parceiros />
+      <Cadastro />
       <Mapa />
       <Footer />
     </main>
