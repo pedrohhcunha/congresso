@@ -24,4 +24,18 @@
             line-height: 145%;
         }
     }
+
+    @media screen and (max-width: 1100px) {
+        flex-wrap: wrap;
+        
+        .areaImagem{
+            width: 100%;
+            margin-bottom: 20px;
+            padding-top: calc((9 / 16) * 100%);
+        }
+
+        .areaInfo{
+            width: 100%;
+        }
+    }
 }
