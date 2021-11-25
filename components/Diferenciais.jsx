@@ -5,7 +5,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 export default function Diferenciais(props) {
     return(
         <section id="Diferenciais" className={styles.section}>
-            <h2 className={styles.titulo}>Nossos Difernciais</h2>
+            <h2 className={styles.titulo}>Nossos Diferenciais</h2>
             <div className={styles.diferenciais}>
                 <div className={styles.diferencial}>
                     <div className={styles.areaIcon}>
