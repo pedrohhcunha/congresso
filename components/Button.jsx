@@ -5,7 +5,7 @@ export default function Button(props) {
     return(
         <button className={styles.button}>
             <Link href="/#Cadastro">
-                <a>{props.children}</a>
+                <a className={styles.link}>{props.children}</a>
             </Link>
         </button>
     )
