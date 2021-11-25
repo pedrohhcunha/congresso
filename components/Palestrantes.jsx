@@ -15,34 +15,6 @@ export default function Palestrantes(prosp) {
                     <h4 className={styles.tituloPalestrante}>Nome palestrante</h4>
                     <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa ea hic adipisci repudiandae sunt quasi, iusto vel porro? Facere quibusdam natus ducimus maxime numquam nihil alias explicabo? Quod, mollitia!</p>
                 </div>
-                <div className={styles.palestrante}>
-                    <div className={styles.areaImagem}>
-                        <Image alt="Imagem de perfil do palestrante" src={placeholder} layout="fill" />
-                    </div>
-                    <h4 className={styles.tituloPalestrante}>Nome palestrante</h4>
-                    <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa ea hic adipisci repudiandae sunt quasi, iusto vel porro? Facere quibusdam natus ducimus maxime numquam nihil alias explicabo? Quod, mollitia!</p>
-                </div>
-                <div className={styles.palestrante}>
-                    <div className={styles.areaImagem}>
-                        <Image alt="Imagem de perfil do palestrante" src={placeholder} layout="fill" />
-                    </div>
-                    <h4 className={styles.tituloPalestrante}>Nome palestrante</h4>
-                    <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa ea hic adipisci repudiandae sunt quasi, iusto vel porro? Facere quibusdam natus ducimus maxime numquam nihil alias explicabo? Quod, mollitia!</p>
-                </div>
-                <div className={styles.palestrante}>
-                    <div className={styles.areaImagem}>
-                        <Image alt="Imagem de perfil do palestrante" src={placeholder} layout="fill" />
-                    </div>
-                    <h4 className={styles.tituloPalestrante}>Nome palestrante</h4>
-                    <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa ea hic adipisci repudiandae sunt quasi, iusto vel porro? Facere quibusdam natus ducimus maxime numquam nihil alias explicabo? Quod, mollitia!</p>
-                </div>
-                <div className={styles.palestrante}>
-                    <div className={styles.areaImagem}>
-                        <Image alt="Imagem de perfil do palestrante" src={placeholder} layout="fill" />
-                    </div>
-                    <h4 className={styles.tituloPalestrante}>Nome palestrante</h4>
-                    <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa ea hic adipisci repudiandae sunt quasi, iusto vel porro? Facere quibusdam natus ducimus maxime numquam nihil alias explicabo? Quod, mollitia!</p>
-                </div>
             </div>
         </section>
     )

@@ -22,10 +22,7 @@ export default function Header(props) {
                         <Link href="/#Inicio"><a>Inicio</a></Link>
                     </li>
                     <li className={styles.itemLista}>
-                        <Link href="/#Sobre"><a>Sobre</a></Link>
-                    </li>
-                    <li className={styles.itemLista}>
-                        <Link href="/#Diferenciais"><a>Diferenciais</a></Link>
+                        <Link href="/#Sobre"><a>Sobre o congresso</a></Link>
                     </li>
                     <li className={styles.itemLista}>
                         <Link href="/#Cronograma"><a>Cronograma</a></Link>
@@ -34,11 +31,11 @@ export default function Header(props) {
                         <Link href="/#Palestrantes"><a>Palestrantes</a></Link>
                     </li>
                     <li className={styles.itemLista}>
-                        <Link href="/#Parceiros"><a>Parceiros</a></Link>
+                        <Link href="/#Trabalhos"><a>Submissão de trabalhos</a></Link>
                     </li>
                 </ul>
                 <div className={styles.areaButton} >
-                    <Button>Garantir a minha vaga</Button>
+                    <Button>GARANTIR MINHA VAGA</Button>
                 </div>
             </nav>
             <FontAwesomeIcon onClick={() => setMenuActive(!menuActive)} icon={faBars} className={styles.iconController}/>
