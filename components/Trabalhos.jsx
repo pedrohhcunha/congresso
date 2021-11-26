@@ -20,6 +20,7 @@ export default function Trabalhos(props) {
                     <Button>Submeter trabalhos</Button>
                 </div>
             </div>
+            <a target="__blank" className={styles.link} href="google.com">Clique aqui para acessar o regulamento e eixos temáticos.</a>
         </section>
     )
 }
