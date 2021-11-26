@@ -11,6 +11,7 @@ import Cadastro from '../components/Cadastro.jsx'
 import Mapa from '../components/Mapa.jsx'
 import Footer from '../components/Footer.jsx'
 import Head from 'next/head'
+import Trabalhos from '../components/Trabalhos'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Cronograma />
       <Participe />
       <Palestrantes />
+      <Trabalhos />
       <ParticipeB />
       <Parceiros />
       <Cadastro />
