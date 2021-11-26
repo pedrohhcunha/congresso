@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Palestrantes(prosp) {
     return(
         <section id="Palestrantes" className={styles.section}>
-            <h2 className={styles.titulo}>Texto da seção</h2>
+            <h2 className={styles.titulo}>Palestrantes confirmados</h2>
 
             <div className={styles.palestrantes}>
                 <div className={styles.palestrante}>

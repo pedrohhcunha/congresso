@@ -4,7 +4,7 @@ import Button from '../components/Button'
 export default function Trabalhos(props) {
     return(
         <section id="Trabahos" className={styles.section}>
-            <h2 className={styles.titulo}>Esse é o titulo</h2>
+            <h2 className={styles.titulo}>Submissão de trabalhos</h2>
             <div className={styles.content}>
                 <div className={styles.leftArea}>
                     <p className={styles.p}>
