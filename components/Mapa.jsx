@@ -2,10 +2,12 @@ import styles from '../styles/Mapa.module.scss'
 
 export default function Mapa(props) {
     return(
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14208.00423924772!2d-52.6634982!3d-27.0932625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b92e061e9280471!2sPollen%20Parque%20Cient%C3%ADfico%20e%20Tecnol%C3%B3gico!5e0!3m2!1spt-BR!2sbr!4v1637696008566!5m2!1spt-BR!2sbr"
-            loading="lazy"
-            className={styles.mapa}>
-        </iframe>          
+        <section className={styles.section}>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14208.00423924772!2d-52.6634982!3d-27.0932625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b92e061e9280471!2sPollen%20Parque%20Cient%C3%ADfico%20e%20Tecnol%C3%B3gico!5e0!3m2!1spt-BR!2sbr!4v1637696008566!5m2!1spt-BR!2sbr"
+                loading="lazy"
+                className={styles.mapa}>
+            </iframe>   
+        </section>       
     )
 }
