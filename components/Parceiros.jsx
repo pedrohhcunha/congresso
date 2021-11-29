@@ -153,7 +153,7 @@ export default function Parceiros(props) {
                     <a href="https://www.unimed.coop.br/site/" rel="noreferrer" target="_blank">
                         <Image alt="Logo oficial da UNIMED" src={unimed} className={styles.image} />
                     </a>
-                </div>423
+                </div>
             </div>
         </section>
     )
