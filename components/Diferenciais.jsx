@@ -11,22 +11,22 @@ export default function Diferenciais(props) {
                     <div className={styles.areaIcon}>
                         <FontAwesomeIcon icon={faCoffee} />
                     </div>
-                    <h4 className={styles.tituloDiferencial}>Inovação e Tecnologia</h4>
-                    <p className={styles.p}>Apresentar soluções... Investimos na alta tecnologia, no desenvolvimento de produtos e qualidade no atendimento. Isso tudo com mais de 15 anos de experiência no segmento healthcare.</p>
+                    <h4 className={styles.tituloDiferencial}>Ciência</h4>
+                    <p className={styles.p}>Reunir diferentes atores da prática assistencial à saúde e estimular estudantes e professores da área para ampliar os conhecimentos sobre infecção hospitalar. </p>
                 </div>
                 <div className={styles.diferencial}>
                     <div className={styles.areaIcon}>
                         <FontAwesomeIcon icon={faCoffee} />
                     </div>
-                    <h4 className={styles.tituloDiferencial}>Segurança</h4>
-                    <p className={styles.p}>Proporcionar a segurança ideal no convívio hospitalar e em diversas áreas relacionadas à saúde através das boas práticas de cuidados.</p>
+                    <h4 className={styles.tituloDiferencial}>Conexão</h4>
+                    <p className={styles.p}>Reunir pesquisadores para refletir sobre temas relevantes da área de Infecção Hospitalar, em palestras e apresentações de trabalhos científicos que compõem o evento.</p>
                 </div>
                 <div className={styles.diferencial}>
                     <div className={styles.areaIcon}>
                         <FontAwesomeIcon icon={faCoffee} />
                     </div>
-                    <h4 className={styles.tituloDiferencial}>Sustentabilidade</h4>
-                    <p className={styles.p}>Com amplo know-how para investir em produtos de alta qualidade, buscamos diariamente entender as necessidades dos nossos clientes e atendê-las na medida certa.</p>
+                    <h4 className={styles.tituloDiferencial}>Solução</h4>
+                    <p className={styles.p}>Apresentar soluções corporativas para qualificar a prática profissional e melhorar a qualidade da assistência à saúde e a segurança dos profissionais e pacientes.</p>
                 </div>
                 <div className={styles.diferencial}>
                     <div className={styles.areaIcon}>
