@@ -3,18 +3,142 @@ import placeholder from '../public/images/placeholder.png'
 import Image from 'next/image'
 
 export default function Palestrantes(prosp) {
+    const palestrantes = [
+        [
+            {
+                nome: 'Rodrigo Santos Qualis',
+                cargo: 'Médico Infectologista',
+                assunto: 'A Revolução das Soluções Inteligentes na prevenção e controle das Infecções Hospitalares: durante e a após a pandemia da COVID-19.',
+                empresa: '',
+                foto: placeholder,
+            },
+            {
+                nome: 'Leticia Stefenon',
+                cargo: 'Cirurgiã-dentista',
+                assunto: 'Métodos inovadores na  prevenção e controle de infecções: Gerenciamentos de múltiplos serviços.',
+                empresa: 'HSDS',
+                foto: placeholder,
+            },
+            {
+                nome: 'Daivana',
+                cargo: 'Enfermeira',
+                assunto: 'Métodos inovadores na  prevenção e controle de infecções: Gerenciamentos de múltiplos serviços.',
+                empresa: 'HSDS',
+                foto: placeholder,
+            },
+            {
+                nome: 'Rodrigo Santos',
+                cargo: 'Médico Infectologista',
+                assunto: 'Métodos inovadores na  prevenção e controle de infecções: Gerenciamentos de múltiplos serviços.',
+                empresa: 'HSDS',
+                foto: placeholder,
+            },
+            {
+                nome: 'Fábio de Araújo',
+                cargo: 'Professor',
+                assunto: 'Gerenciamento de riscos: teoria de sistemas complexos e Safety 1 X Safety 2.',
+                empresa: 'Unochapecó',
+                foto: placeholder,
+            }
+        ],
+        [
+            {
+                nome: 'Jorge Sampaio',
+                cargo: 'Professor',
+                assunto: 'Evolução do diagnóstico microbiológico: Novas Tecnologias.',
+                empresa: 'UFFS / UDESC',
+                foto: placeholder,
+            },
+            {
+                nome: 'Lidiane Riva Pagnussat',
+                cargo: '',
+                assunto: 'Como medir e apresentar ao gestor o impacto econômico de um programa “Stewardship” e microbianos MMR e a segurança do paciente.',
+                empresa: '',
+                foto: placeholder,
+            },
+            {
+                nome: 'Gabriela Furlan',
+                cargo: '',
+                assunto: 'Aplicabilidade dos Campos Cirúrgicos Estéril: um impacto no ecossistema hospitalar.',
+                empresa: 'Berry',
+                foto: placeholder,
+            },
+            {
+                nome: 'Guilherme Cajueiro',
+                cargo: '',
+                assunto: 'Aplicabilidade e rendimentos de produtos de desinfecção e antissépticos.',
+                empresa: 'Rioquimica',
+                foto: placeholder,
+            }
+        ],
+        [
+            {
+                nome: 'Isabela Pisseti Piccinin',
+                cargo: 'Farmacêutica',
+                assunto: 'Estruturação de serviços de gestão de suprimentos em hospitais para garantir a segurança do paciente.',
+                empresa: '',
+                foto: placeholder,
+            },
+            {
+                nome: 'Felipe Dal Pizzol',
+                cargo: 'Professor',
+                assunto: 'Avanços e perspectivas no campo das inovações em saúde: segurança, tecnologia e sustentabilidade em prevenção e controle de infecções hospitalares.',
+                empresa: 'Rioquímica',
+                foto: placeholder,
+            }
+        ]
+    ]
+
     return(
         <section id="Palestrantes" className={styles.section}>
             <h2 className={styles.titulo}>Palestrantes confirmados</h2>
-
+            <h3 className={styles.subtitulo}>Primeiro dia</h3>
             <div className={styles.palestrantes}>
-                <div className={styles.palestrante}>
-                    <div className={styles.areaImagem}>
-                        <Image alt="Imagem de perfil do palestrante" src={placeholder} layout="fill" />
+                {palestrantes[0].map((palestrante, index) => (
+                    <div key={index} className={styles.palestrante}>
+                        <div className={styles.areaImagem}>
+                            <Image alt="Imagem de perfil do palestrante" src={palestrante.foto} layout="fill" />
+                        </div>
+                        <h4 className={styles.tituloPalestrante}>{palestrante.nome}</h4>
+                        <h5 className={styles.cargo}>{palestrante.cargo}</h5>
+                        <p className={styles.p}>
+                            <strong>Assunto: </strong>
+                            {palestrante.assunto}
+                        </p>
                     </div>
-                    <h4 className={styles.tituloPalestrante}>Nome palestrante</h4>
-                    <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa ea hic adipisci repudiandae sunt quasi, iusto vel porro? Facere quibusdam natus ducimus maxime numquam nihil alias explicabo? Quod, mollitia!</p>
-                </div>
+                ))}
+            </div>
+            <h3 className={styles.subtitulo}>Segundo dia</h3>
+            <div className={styles.palestrantes}>
+                {palestrantes[1].map((palestrante, index) => (
+                    <div key={index} className={styles.palestrante}>
+                        <div className={styles.areaImagem}>
+                            <Image alt="Imagem de perfil do palestrante" src={palestrante.foto} layout="fill" />
+                        </div>
+                        <h4 className={styles.tituloPalestrante}>{palestrante.nome}</h4>
+                        <h5 className={styles.cargo}>{palestrante.cargo}</h5>
+                        <p className={styles.p}>
+                            <strong>Assunto: </strong>
+                            {palestrante.assunto}
+                        </p>
+                    </div>
+                ))}
+            </div>
+            <h3 className={styles.subtitulo}>Terceiro dia</h3>
+            <div className={styles.palestrantes}>
+                {palestrantes[2].map((palestrante, index) => (
+                    <div key={index} className={styles.palestrante}>
+                        <div className={styles.areaImagem}>
+                            <Image alt="Imagem de perfil do palestrante" src={palestrante.foto} layout="fill" />
+                        </div>
+                        <h4 className={styles.tituloPalestrante}>{palestrante.nome}</h4>
+                        <h5 className={styles.cargo}>{palestrante.cargo}</h5>
+                        <p className={styles.p}>
+                            <strong>Assunto: </strong>
+                            {palestrante.assunto}
+                        </p>
+                    </div>
+                ))}
             </div>
         </section>
     )
