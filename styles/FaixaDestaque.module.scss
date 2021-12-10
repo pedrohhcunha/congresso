@@ -1,0 +1,17 @@
+.section{
+    width: 100%;
+    padding: 5vw 20px;
+    background-color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .info{
+        text-align: center;
+        color: var(--white);
+
+        h2{
+            font-size: 40px;
+        }
+    }
+}
