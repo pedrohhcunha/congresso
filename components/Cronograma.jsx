@@ -20,10 +20,10 @@ export default function Cronograma(props) {
             <h2 className={styles.titulo}>Acompanhe a programação</h2>
             <div className={styles.subSection}>
                 <div className={styles.cardDia}>
-                    <h3 className={styles.dia}>19/05</h3>
+                    <h3 className={styles.dia}>26/05</h3>
                     <p className={styles.p}>
-                        Abertura do evento, palestras e mesa-redonda <br /><br />
-                        Tema principal: Metodologias de prevenção e controle de infecções hospitalares
+                    Abertura do evento, palestras e mesa-redonda <br /><br />
+                    <strong>Tema principal:</strong> Metodologias de prevenção e controle de infecções hospitalares
                     </p>
                 </div>
                 <div className={styles.areaContentDia}>
@@ -108,19 +108,19 @@ export default function Cronograma(props) {
                     </div>
                 </div>
                 <div className={styles.cardDia}>
-                    <h3 className={styles.dia}>20/05</h3>
+                    <h3 className={styles.dia}>27/05</h3>
                     <p className={styles.p}>
                     Palestras <br /> <br />
-                    Tema principal: Novas tecnologias
+                    <strong>Tema principal:</strong> Novas tecnologias
                     </p>
                 </div>
             </div>
             <div className={styles.subSection}>
                 <div className={styles.cardDia}>
-                    <h3 className={styles.dia}>21/05</h3>
+                    <h3 className={styles.dia}>28/05</h3>
                     <p className={styles.p}>
-                        Cases, Apresentação dos trabalhos submetidos e encerramento do evento <br /><br />
-                        Tema principal: Estruturação e gestão de serviços em hospitais
+                    Cases, Apresentação dos trabalhos submetidos e encerramento do evento <br /><br />
+                     <strong>Tema principal:</strong> Estruturação e gestão de serviços em hospitais
                     </p>
                 </div>
                 <div className={styles.areaContentDia}>
