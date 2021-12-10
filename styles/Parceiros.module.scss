@@ -3,21 +3,29 @@
     width: 100%;
     padding: 50px 5vw;
     background-color: var(--white);
-    text-align: center;
 
     .titulo{
         color: var(--blue);
         font-size: 40px;
         margin-bottom: 40px;
+        text-align: center;
     }
 
-    .subtitulo{
-        color: var(--blue);
-        margin-top: 30px;
-        text-align: left;
-        color: var(--purple);
-        font-size: 30px;
+    .areaSubtitulo{
+        padding: 10px 10px;
+        background-color: var(--purple);
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+        box-shadow: -5px 5px 0 var(--blue);
+
+        .subtitulo{
+            color: var(--white);
+        }
     }
+
 
     .parceiros{
         display: flex;
