@@ -7,7 +7,10 @@ export default function Inicio(props) {
                     <h1 className={styles.numero}>{"1°"}</h1>
                     <h1 className={styles.titulo}>Congresso <br /> Sul Brasileiro <br /> de Inovação em Saúde</h1>
                 </div>
-                <h5 className={styles.span}>{`"Security, Technology and Sustainability in Infection prevention and control."`}</h5>
+                <h5 className={styles.span}>{`"Security, Technology and Sustainability in Infection prevention and control"`}</h5>
+            </div>
+            <div className={styles.areaLogo}>
+
             </div>
         </section>
     )

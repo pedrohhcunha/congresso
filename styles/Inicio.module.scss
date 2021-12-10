@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url('../public/images/inicio.png');
 
     .areaContent{
         width: 65%;
@@ -35,6 +34,18 @@
             color: var(--blue);
             margin-top: 20px;
         }
+    }
+
+    .areaLogo{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: var(--purple);
+        opacity: .1;
+        position: absolute;
+        top: 40%;
+        left: 55%;
+        transform: translateY(-50%);
     }
 
     @media screen and (max-width: 1100px) {
