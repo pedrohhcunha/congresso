@@ -27,10 +27,10 @@ export default function Home() {
       <Inicio />
       <FaixaDestaque />
       <Sobre />
+      <Palestrantes />
       <Diferenciais />
       <Cronograma />
       <Participe />
-      <Palestrantes />
       <Trabalhos />
       <ParticipeB />
       <Parceiros />

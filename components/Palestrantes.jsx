@@ -101,10 +101,6 @@ export default function Palestrantes(prosp) {
                         </div>
                         <h4 className={styles.tituloPalestrante}>{palestrante.nome}</h4>
                         <h5 className={styles.cargo}>{palestrante.cargo}</h5>
-                        <p className={styles.p}>
-                            <strong>Assunto: </strong>
-                            {palestrante.assunto}
-                        </p>
                     </div>
                 ))}
             </div>
@@ -117,10 +113,6 @@ export default function Palestrantes(prosp) {
                         </div>
                         <h4 className={styles.tituloPalestrante}>{palestrante.nome}</h4>
                         <h5 className={styles.cargo}>{palestrante.cargo}</h5>
-                        <p className={styles.p}>
-                            <strong>Assunto: </strong>
-                            {palestrante.assunto}
-                        </p>
                     </div>
                 ))}
             </div>
@@ -133,10 +125,6 @@ export default function Palestrantes(prosp) {
                         </div>
                         <h4 className={styles.tituloPalestrante}>{palestrante.nome}</h4>
                         <h5 className={styles.cargo}>{palestrante.cargo}</h5>
-                        <p className={styles.p}>
-                            <strong>Assunto: </strong>
-                            {palestrante.assunto}
-                        </p>
                     </div>
                 ))}
             </div>

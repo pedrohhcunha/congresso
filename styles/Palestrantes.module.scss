@@ -31,15 +31,15 @@
             text-align: center;
 
             .areaImagem{
-                width: 100px;
-                height: 100px;
+                width: 200px;
+                height: 200px;
                 background-color: var(--lightBlue);
                 margin: 0 auto;
-                border-radius: 50%;
-                -webkit-border-radius: 50%;
-                -moz-border-radius: 50%;
-                -ms-border-radius: 50%;
-                -o-border-radius: 50%;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
                 margin-bottom: 10px;
                 position: relative;
                 display: flex;
