@@ -5,20 +5,28 @@ export default function Trabalhos(props) {
     return(
         <section id="Trabahos" className={styles.section}>
             <h2 className={styles.titulo}>Submissão de trabalhos</h2>
-            <div className={styles.content}>
-                <div className={styles.leftArea}>
-                    <p className={styles.p}>
-                    <br /> - A inscrição deverá ser efetuada  obrigatoriamente por um autor já inscrito no evento;
-                    <br /> - Deve ser enviado o resumo do trabalho a ser apresentado durante o CONIVAH;
-                    <br /> - Número máximo de autores: cinco. Cada autor poderá apresentar até dois trabalhos como relator;
-                    <br /> - Não há limite para submissão de trabalhos como coautor;
-                    <br /> - Não será cobrada taxas ou valores adicionais para a submissão de trabalhos no congresso.
-                    </p>
+            <div className={styles.topArea}>
+                <h2 className={styles.frase}>
+                    “No Brasil, a taxa de infecção hospitalar chega a 14%”.
+                </h2>
+                <div className={styles.datas}>
+                    <div className={styles.data}>
+                        <h3 className={styles.tituloData}>30 de abril</h3>
+                        <h5 className={styles.textoData}>Submissão de resumos</h5>
+                    </div>
+                    <div className={styles.data}>
+                        <h3 className={styles.tituloData}>20 de março</h3>
+                        <h5 className={styles.textoData}>Divulgação dos resultados</h5>
+                    </div>
                 </div>
-                <div className={styles.rightArea}>
-                    <div className={styles.calendar}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellat vitae ullam explicabo accusamus eligendi modi dignissimos ab neque porro iusto totam odio natus, voluptatibus, illum minima, vero aliquam tempore.</div>
-                    <Button>Submeter trabalhos</Button>
-                </div>
+            </div>
+            <div className={styles.areaTopicos}>
+                <p className={styles.p}>
+                    <br /> - Submeta sua pesquisa;
+                    <br /> - Apresente via online ou presencial durante o evento;
+                    <br /> - Tenha seu resumo publicado em anais;
+                    <br /> - Concorra ao prêmio de melhor pesquisa CONTIS.
+                </p>
             </div>
             <a target="__blank" className={styles.link} href="google.com">Clique aqui para acessar o regulamento e eixos temáticos.</a>
         </section>
