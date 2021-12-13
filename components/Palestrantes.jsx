@@ -2,6 +2,12 @@ import styles from '../styles/Palestrantes.module.scss'
 import placeholder from '../public/images/placeholder.png'
 import Image from 'next/image'
 
+import fabiana from '../public/images/palestrantes/fabiana.jpg'
+import rodrigo from '../public/images/palestrantes/rodrigo.jpeg'
+import leticia from '../public/images/palestrantes/leticia.jpeg'
+import lediane from '../public/images/palestrantes/lidiane.jpeg'
+import victor from '../public/images/palestrantes/victor.jpeg'
+
 export default function Palestrantes(prosp) {
     const palestrantes = [
         [
@@ -10,14 +16,14 @@ export default function Palestrantes(prosp) {
                 cargo: 'Médico Infectologista',
                 assunto: 'A Revolução das Soluções Inteligentes na prevenção e controle das Infecções Hospitalares: durante e a após a pandemia da COVID-19.',
                 empresa: '',
-                foto: placeholder,
+                foto: rodrigo,
             },
             {
                 nome: 'Leticia Stefenon',
                 cargo: 'Cirurgiã-dentista',
                 assunto: 'Métodos inovadores na  prevenção e controle de infecções: Gerenciamentos de múltiplos serviços.',
                 empresa: 'HSDS',
-                foto: placeholder,
+                foto: leticia,
             },
             {
                 nome: 'Daivana',
@@ -54,14 +60,14 @@ export default function Palestrantes(prosp) {
                 cargo: '',
                 assunto: 'Como medir e apresentar ao gestor o impacto econômico de um programa “Stewardship” e microbianos MMR e a segurança do paciente.',
                 empresa: '',
-                foto: placeholder,
+                foto: lediane,
             },
             {
-                nome: 'Gabriela Furlan',
+                nome: 'Victor Gnoatto',
                 cargo: '',
                 assunto: 'Aplicabilidade dos Campos Cirúrgicos Estéril: um impacto no ecossistema hospitalar.',
                 empresa: 'Berry',
-                foto: placeholder,
+                foto: victor,
             },
             {
                 nome: 'Guilherme Cajueiro',
@@ -96,7 +102,7 @@ export default function Palestrantes(prosp) {
                 {palestrantes[0].map((palestrante, index) => (
                     <div key={index} className={styles.palestrante}>
                         <div className={styles.areaImagem}>
-                            <Image alt="Imagem de perfil do palestrante" src={palestrante.foto} layout="fill" />
+                            <Image className={styles.img} alt="Imagem de perfil do palestrante" src={palestrante.foto} layout="fill" />
                         </div>
                         <h4 className={styles.tituloPalestrante}>{palestrante.nome}</h4>
                         <h5 className={styles.cargo}>{palestrante.cargo}</h5>
@@ -105,7 +111,7 @@ export default function Palestrantes(prosp) {
                 {palestrantes[1].map((palestrante, index) => (
                     <div key={index} className={styles.palestrante}>
                         <div className={styles.areaImagem}>
-                            <Image alt="Imagem de perfil do palestrante" src={palestrante.foto} layout="fill" />
+                            <Image className={styles.img} alt="Imagem de perfil do palestrante" src={palestrante.foto} layout="fill" />
                         </div>
                         <h4 className={styles.tituloPalestrante}>{palestrante.nome}</h4>
                         <h5 className={styles.cargo}>{palestrante.cargo}</h5>
@@ -114,7 +120,7 @@ export default function Palestrantes(prosp) {
                 {palestrantes[2].map((palestrante, index) => (
                     <div key={index} className={styles.palestrante}>
                         <div className={styles.areaImagem}>
-                            <Image alt="Imagem de perfil do palestrante" src={palestrante.foto} layout="fill" />
+                            <Image className={styles.img} alt="Imagem de perfil do palestrante" src={palestrante.foto} layout="fill" />
                         </div>
                         <h4 className={styles.tituloPalestrante}>{palestrante.nome}</h4>
                         <h5 className={styles.cargo}>{palestrante.cargo}</h5>
