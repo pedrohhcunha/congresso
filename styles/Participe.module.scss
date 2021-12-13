@@ -2,6 +2,10 @@
     padding: 50px 5vw;
     background: linear-gradient(to bottom, var(--blue) 50%, var(--white) 50%);
 
+    &.alternative{
+        background: var(--white);
+    }
+
     .content{
         background-color: var(--white);
         padding: 25px;

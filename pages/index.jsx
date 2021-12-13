@@ -28,9 +28,9 @@ export default function Home() {
       <FaixaDestaque />
       <Sobre />
       <Palestrantes />
+      <Participe />
       <Diferenciais />
       <Cronograma />
-      <Participe />
       <Trabalhos />
       <ParticipeB />
       <Parceiros />
