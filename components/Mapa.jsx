@@ -1,4 +1,6 @@
 import styles from '../styles/Mapa.module.scss'
+import Image from 'next/image'
+import localImg from '../public/images/fotoCentro.jpeg'
 
 export default function Mapa(props) {
     return(
@@ -11,7 +13,7 @@ export default function Mapa(props) {
                     Todos os protocolos de segurança serão respeitados e a organização está sendo feita de forma a evitar aglomerações no local.
                 </p>
                 <div className={styles.areaFoto}>
-
+                    <Image src={localImg} layout='fill' />
                 </div>
             </div>
             <iframe
