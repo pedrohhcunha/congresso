@@ -1,13 +1,31 @@
 .section{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 50px 5vw;
+
+    .topArea{   
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .p{
+            width: 45%;
+            color: var(--purple);
+            font-weight: 600;
+        }
+
+        .areaFoto{
+            width: 45%;
+            background-color: var(--blue);
+            position: relative;
+            padding-top: calc((9 /18) * 45%);
+            margin-bottom: 20px;
+        }
+    }
 
     .mapa{
         width: 100%;
-        height: 300px;
+        height: 200px;
         display: flex;
         align-items: center;
         justify-content: center;
