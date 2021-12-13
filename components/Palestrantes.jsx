@@ -92,7 +92,6 @@ export default function Palestrantes(prosp) {
     return(
         <section id="Palestrantes" className={styles.section}>
             <h2 className={styles.titulo}>Palestrantes confirmados</h2>
-            <h3 className={styles.subtitulo}>Primeiro dia</h3>
             <div className={styles.palestrantes}>
                 {palestrantes[0].map((palestrante, index) => (
                     <div key={index} className={styles.palestrante}>
@@ -103,9 +102,6 @@ export default function Palestrantes(prosp) {
                         <h5 className={styles.cargo}>{palestrante.cargo}</h5>
                     </div>
                 ))}
-            </div>
-            <h3 className={styles.subtitulo}>Segundo dia</h3>
-            <div className={styles.palestrantes}>
                 {palestrantes[1].map((palestrante, index) => (
                     <div key={index} className={styles.palestrante}>
                         <div className={styles.areaImagem}>
@@ -115,9 +111,6 @@ export default function Palestrantes(prosp) {
                         <h5 className={styles.cargo}>{palestrante.cargo}</h5>
                     </div>
                 ))}
-            </div>
-            <h3 className={styles.subtitulo}>Terceiro dia</h3>
-            <div className={styles.palestrantes}>
                 {palestrantes[2].map((palestrante, index) => (
                     <div key={index} className={styles.palestrante}>
                         <div className={styles.areaImagem}>
