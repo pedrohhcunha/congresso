@@ -1,14 +1,13 @@
 import styles from '../styles/Footer.module.scss'
 import Link from 'next/link'
+import Button from './Button'
 
 export default function Footer(props) {
     return(
         <footer className={styles.footer}>
-            <div className="subFooter">
+            <div className={styles.subFooter}>
                 <h4>25, 26 e 27 de Dezembro</h4>
-                <button>
-                    CTA BUTTON
-                </button>
+                <Button>Participar Agora</Button>
             </div>
             <div className={styles.realFooter}>
                 <h5 className={styles.span}>© 2021 Azeplast. Todos os direitos reservados.</h5>
