@@ -21,6 +21,20 @@
             padding-top: calc((9 /18) * 45%);
             margin-bottom: 20px;
         }
+
+        @media screen and (max-width: 500px) {
+            width: 100%;
+            flex-wrap: wrap-reverse;
+
+            .areaFoto{
+                width: 100%;
+                padding-top: calc((9 /18) * 100%);
+            }
+
+            .p{
+                width: 100%;
+            }
+        }
     }
 
     .mapa{

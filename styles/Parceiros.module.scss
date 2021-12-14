@@ -21,6 +21,10 @@
         margin: 20px 0;
         box-shadow: -5px 5px 0 var(--blue);
 
+        @media screen and (max-width: 500px) {
+            width: 100%;
+        }
+
         .subtitulo{
             color: var(--white);
         }
@@ -47,6 +51,10 @@
             -moz-border-radius: 10px;
             -ms-border-radius: 10px;
             -o-border-radius: 10px;
+
+            @media screen and (max-width: 500px) {
+                width: 45%;
+            }
         }
     }
 

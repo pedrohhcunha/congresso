@@ -28,7 +28,9 @@ export default function Trabalhos(props) {
                     <br /> - Concorra ao prêmio de melhor pesquisa CONTIS.
                 </p>
             </div>
-            <a target="__blank" className={styles.link} href="google.com">Clique aqui para acessar o regulamento e eixos temáticos.</a>
+            <div className={styles.link}>
+                <a target="__blank" className={styles.a} href="google.com">Clique aqui para acessar o regulamento e eixos temáticos.</a>
+            </div>
         </section>
     )
 }
