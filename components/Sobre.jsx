@@ -11,9 +11,17 @@ export default function Sobre(props) {
             </div>
             <div className={styles.areaInfo}>
                 <p className={styles.p}>O grupo Onfinity tem o prazer em apresentar o 1º  Congresso Sul Brasileiro de Inovação em Saúde. Com tema voltado à Segurança, Tecnologia aliadas à Sustentabilidade, buscamos a prevenção e controle de Infecções Hospitalares. A partir do viés científico, este evento propõe a discussão, sensibilização e aperfeiçoamento profissional do público presente por meio de palestras e mesas-redondas.</p>
-                <Button>Participar do evento</Button>
+                <Button style={
+                    {
+                        marginBottom: window.screen.width <= 500 ? "10px" : "",
+                    }
+                }>Participar do evento</Button>
 
-                <Button alternative style={{marginLeft: "20px"}}>Submeter trabalhos</Button>
+                <Button alternative style={
+                    {
+                        marginLeft: window.screen.width > 500 ? "20px" : "",
+                    }
+                }>Submeter trabalhos</Button>
             </div>
         </section>
     )
