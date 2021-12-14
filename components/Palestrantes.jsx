@@ -97,7 +97,7 @@ export default function Palestrantes(prosp) {
             <h2 className={styles.titulo}>Palestrantes confirmados</h2>
             <div className={styles.palestrantes}>
                 {palestrantes[0].map((palestrante, index) => (
-                    <Palestrante palestrante={palestrante} index={index} />
+                    <Palestrante key={index} palestrante={palestrante} index={index} />
                 ))}
             </div>
         </section>
