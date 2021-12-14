@@ -14,4 +14,17 @@
             font-size: 40px;
         }
     }
+
+    @media screen and (max-width: 500px) {
+        flex-wrap: wrap;
+
+        .info{
+            width: 100%;
+            margin: 20px 0;
+
+            h2{
+                font-size: 25px;
+            }
+        }
+    }
 }
