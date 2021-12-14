@@ -2,7 +2,7 @@ import styles from '../styles/Palestrante.module.scss'
 import Image from 'next/image'
 import { useState, useEffect } from 'react';
 
-export default function name(props) {
+export default function Palestrante(props) {
 
     const [isVisible, setIsVisible] = useState(false);
 
