@@ -19,13 +19,16 @@ export default function Trabalhos(props) {
                         <h5 className={styles.textoData}>Divulgação dos resultados</h5>
                     </div>
                 </div>
+                <div className="botoes">
+                    <Button>Submeter trabalhos</Button>
+                </div>
             </div>
             <div className={styles.areaTopicos}>
                 <p className={styles.p}>
-                    <br /> - Submeta sua pesquisa;
-                    <br /> - Apresente via online ou presencial durante o evento;
-                    <br /> - Tenha seu resumo publicado em anais;
-                    <br /> - Concorra ao prêmio de melhor pesquisa CONTIS.
+                    <br />Submeta sua pesquisa;
+                    <br />Apresente via online ou presencial durante o evento;
+                    <br />Tenha seu resumo publicado em anais;
+                    <br />Concorra ao prêmio de melhor pesquisa CONTIS.
                 </p>
             </div>
             <div className={styles.link}>
