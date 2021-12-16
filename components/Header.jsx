@@ -35,7 +35,7 @@ export default function Header(props) {
                     </li>
                 </ul>
                 <div className={styles.areaButton} >
-                    <Button>GARANTA SEU INGRESSO</Button>
+                    <Button tremer>GARANTA SEU INGRESSO</Button>
                 </div>
             </nav>
             <FontAwesomeIcon onClick={() => setMenuActive(!menuActive)} icon={faBars} className={styles.iconController}/>
