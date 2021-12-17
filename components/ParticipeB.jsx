@@ -6,7 +6,7 @@ export default function Participe(props) {
         <section className={styles.section}>
             <div className={styles.content}>
                 <h2 className={styles.titulo}>Garanta a sua vaga no congresso!</h2>
-                <Button>GARANTIR MINHA VAGA</Button>
+                <Button onClick={props.openModal} >GARANTIR MINHA VAGA</Button>
             </div>
         </section>
     )

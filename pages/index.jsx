@@ -49,17 +49,17 @@ export default function Home() {
       <Header openModal={openModal} />
       <Inicio />
       <FaixaDestaque />
-      <Sobre />
+      <Sobre openModal={openModal} />
       <Palestrantes />
-      <Participe />
+      <Participe openModal={openModal} />
       <Diferenciais />
       <Cronograma />
       <Trabalhos />
-      <ParticipeB />
+      <ParticipeB openModal={openModal} />
       <Parceiros />
       <Cadastro />
       <Mapa />
-      <Footer />
+      <Footer openModal={openModal} />
       <Modal isOpen={statusModal} closeModal={closeModal} />
     </>
   )
