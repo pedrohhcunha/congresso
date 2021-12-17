@@ -9,6 +9,9 @@
     align-items: center;
     justify-content: center;
     z-index: 1000000000;
+    opacity: 0;
+    pointer-events: none;
+    transition: .4s;
 
     .modal{
         padding: 20px;
@@ -17,5 +20,15 @@
         width: 700px;
         max-width: 90vw;
         box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.178);
+        transform:  translate(10px, 10px);
+    }
+
+    &.active{
+        opacity: 1;
+        pointer-events: all;
+
+        .modal{
+            transform:  translate(0, 0);
+        }
     }
 }

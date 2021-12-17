@@ -14,8 +14,30 @@ import Head from 'next/head'
 import Trabalhos from '../components/Trabalhos'
 import FaixaDestaque from '../components/FaixaDestaque'
 import Modal from '../components/Modal'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
+
+  const [statusModal, setStatusModal] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('keydown', event => {
+      if(event.key === "Escape") {
+        setStatusModal(false)
+      }
+    })
+  }, []);
+
+  const openModal = () => {
+    setStatusModal(true)
+    console.log("Abrindo o modal!")
+  }
+
+  const closeModal = () => {
+    setStatusModal(false)
+    console.log("Fechando o modal!")
+  }
+
   return (
     <>
       <Head>
@@ -24,7 +46,7 @@ export default function Home() {
           Security, technology and sustainability in infection prevention and control.
         " />
       </Head>
-      <Header />
+      <Header openModal={openModal} />
       <Inicio />
       <FaixaDestaque />
       <Sobre />
@@ -38,7 +60,7 @@ export default function Home() {
       <Cadastro />
       <Mapa />
       <Footer />
-      <Modal />
+      <Modal isOpen={statusModal} closeModal={closeModal} />
     </>
   )
 }
