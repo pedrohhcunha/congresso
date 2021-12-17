@@ -13,6 +13,7 @@ import Footer from '../components/Footer.jsx'
 import Head from 'next/head'
 import Trabalhos from '../components/Trabalhos'
 import FaixaDestaque from '../components/FaixaDestaque'
+import Modal from '../components/Modal'
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
       <Cadastro />
       <Mapa />
       <Footer />
+      <Modal />
     </>
   )
 }
