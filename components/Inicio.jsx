@@ -5,7 +5,7 @@ export default function Inicio(props) {
             <div className={styles.areaContent}>
                 <div className={styles.areaNome}>
                     <h1 className={styles.numero}>{"1°"}</h1>
-                    <h1 className={styles.titulo}>Congresso <br /> Sul Brasileiro <br /> de Inovação em Saúde</h1>
+                    <h1 className={styles.titulo}>CONTIS <br /> Congresso <br /> Sul Brasileiro <br /> de Inovação em Saúde</h1>
                 </div>
                 <h5 className={styles.span}>{`"Security, Technology and Sustainability in Infection prevention and control"`}</h5>
             </div>
