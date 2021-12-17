@@ -7,88 +7,62 @@ import rodrigo from '../public/images/palestrantes/rodrigo.jpeg'
 import leticia from '../public/images/palestrantes/leticia.jpeg'
 import lediane from '../public/images/palestrantes/lidiane.jpeg'
 import victor from '../public/images/palestrantes/victor.jpeg'
+import isabela from '../public/images/palestrantes/isabela.jpeg'
+import taise from '../public/images/palestrantes/taise.jpeg'
 
 export default function Palestrantes(prosp) {
     const palestrantes = [
         [
             {
-                nome: 'Rodrigo Santos Qualis',
-                cargo: 'Médico Infectologista',
-                assunto: 'A Revolução das Soluções Inteligentes na prevenção e controle das Infecções Hospitalares: durante e a após a pandemia da COVID-19.',
-                empresa: '',
-                foto: rodrigo,
+                nome: 'Carolina Ponzi',
+                cargo: 'Médica infectologista',
+                foto: placeholder,
             },
             {
-                nome: 'Leticia Stefenon',
-                cargo: 'Cirurgiã-dentista',
-                assunto: 'Métodos inovadores na  prevenção e controle de infecções: Gerenciamentos de múltiplos serviços.',
-                empresa: 'HSDS',
-                foto: leticia,
-            },
-            {
-                nome: 'Daivana',
+                nome: 'Daivana Kunz',
                 cargo: 'Enfermeira',
-                assunto: 'Métodos inovadores na  prevenção e controle de infecções: Gerenciamentos de múltiplos serviços.',
-                empresa: 'HSDS',
                 foto: placeholder,
             },
             {
-                nome: 'Rodrigo Santos',
-                cargo: 'Médico Infectologista',
-                assunto: 'Métodos inovadores na  prevenção e controle de infecções: Gerenciamentos de múltiplos serviços.',
-                empresa: 'HSDS',
-                foto: placeholder,
+                nome: 'Fabiana Meneghetti Dallacosta',
+                cargo: 'Enfermeira',
+                foto: fabiana,
             },
             {
-                nome: 'Fábio de Araújo',
-                cargo: 'Professor',
-                assunto: 'Gerenciamento de riscos: teoria de sistemas complexos e Safety 1 X Safety 2.',
-                empresa: 'Unochapecó',
+                nome: 'Gessy',
+                cargo: 'Enfermeira',
                 foto: placeholder,
             },
             {
                 nome: 'Isabela Pisseti Piccinin',
                 cargo: 'Farmacêutica',
-                assunto: 'Estruturação de serviços de gestão de suprimentos em hospitais para garantir a segurança do paciente.',
-                empresa: '',
-                foto: placeholder,
+                foto: isabela,
             },
             {
-                nome: 'Felipe Dal Pizzol',
-                cargo: 'Professor',
-                assunto: 'Avanços e perspectivas no campo das inovações em saúde: segurança, tecnologia e sustentabilidade em prevenção e controle de infecções hospitalares.',
-                empresa: 'Rioquímica',
-                foto: placeholder,
-            },
-            {
-                nome: 'Jorge Sampaio',
-                cargo: 'Professor',
-                assunto: 'Evolução do diagnóstico microbiológico: Novas Tecnologias.',
-                empresa: 'UFFS / UDESC',
-                foto: placeholder,
+                nome: 'Leticia Stefenon',
+                cargo: 'Cirurgiã-dentista',
+                foto: leticia,
             },
             {
                 nome: 'Lidiane Riva Pagnussat',
-                cargo: '',
-                assunto: 'Como medir e apresentar ao gestor o impacto econômico de um programa “Stewardship” e microbianos MMR e a segurança do paciente.',
-                empresa: '',
+                cargo: 'Farmacêutica',
                 foto: lediane,
             },
             {
-                nome: 'Victor Gnoatto',
-                cargo: '',
-                assunto: 'Aplicabilidade dos Campos Cirúrgicos Estéril: um impacto no ecossistema hospitalar.',
-                empresa: 'Berry',
-                foto: victor,
+                nome: 'Rodrigo Santos',
+                cargo: 'Médico Infectologista',
+                foto: rodrigo,
             },
             {
-                nome: 'Guilherme Cajueiro',
-                cargo: '',
-                assunto: 'Aplicabilidade e rendimentos de produtos de desinfecção e antissépticos.',
-                empresa: 'Rioquimica',
-                foto: placeholder,
+                nome: 'Taíse Klein',
+                cargo: 'Enfermeira',
+                foto: taise,
+            },
+            {
+                nome: 'Victor Eduardo Gnoatto',
+                cargo: 'Engenheiro químico',
+                foto: victor,
             }
-
         ]
     ]
 
