@@ -1,0 +1,31 @@
+.section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+    padding: 20px 5vw;
+    color: var(--white);
+
+    .areaLogo{
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 150px;
+        height: 75px;
+
+        .image{
+            height: 75px !important;
+            max-height: 75px !important;
+            min-height: 75px !important;
+            object-fit: contain;
+        }
+    }
+
+    h2{
+        font-size: 16px;
+        color: var();
+        margin: 0 50px;
+    }
+}

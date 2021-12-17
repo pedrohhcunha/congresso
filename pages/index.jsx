@@ -7,7 +7,7 @@ import Participe from '../components/Participe.jsx'
 import Palestrantes from '../components/Palestrantes.jsx'
 import ParticipeB from '../components/ParticipeB.jsx'
 import Parceiros from '../components/Parceiros.jsx'
-import Cadastro from '../components/Cadastro.jsx'
+import SubFooter from '../components/SubFooter.jsx'
 import Mapa from '../components/Mapa.jsx'
 import Footer from '../components/Footer.jsx'
 import Head from 'next/head'
@@ -58,8 +58,8 @@ export default function Home() {
       <Trabalhos />
       <ParticipeB openModal={openModal} />
       <Parceiros />
-      <Cadastro />
       <Mapa />
+      <SubFooter openModal={openModal} />
       <Footer openModal={openModal} />
       <Modal isOpen={statusModal} closeModal={closeModal} />
     </>
