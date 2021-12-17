@@ -6,9 +6,6 @@ export default function Trabalhos(props) {
         <section id="Trabahos" className={styles.section}>
             <h2 className={styles.titulo}>Submissão de trabalhos</h2>
             <div className={styles.topArea}>
-                <h2 className={styles.frase}>
-                    “No Brasil, a taxa de infecção hospitalar chega a 14%”.
-                </h2>
                 <div className={styles.datas}>
                     <div className={styles.data}>
                         <h3 className={styles.tituloData}>30 de abril</h3>
@@ -19,6 +16,9 @@ export default function Trabalhos(props) {
                         <h5 className={styles.textoData}>Divulgação dos resultados</h5>
                     </div>
                 </div>
+                <h2 className={styles.frase}>
+                    “No Brasil, a taxa de infecção hospitalar chega a 14%”.
+                </h2> 
                 <div className="botoes">
                     <Button>Submeter trabalhos</Button>
                 </div>
