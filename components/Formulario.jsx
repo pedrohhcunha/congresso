@@ -19,6 +19,7 @@ export default function Formulario(props) {
 
         axios.post('/api/convert', dataForm).then(response => {
             console.log(response.data)
+            props.updateStatus()
         })
     }
 

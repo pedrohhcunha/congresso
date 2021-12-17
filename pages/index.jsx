@@ -45,6 +45,7 @@ export default function Home() {
         <meta name="description" content="
           Security, technology and sustainability in infection prevention and control.
         " />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.10/iframeResizer.min.js"></script>
       </Head>
       <Header openModal={openModal} />
       <Inicio />
