@@ -5,15 +5,15 @@ export default function FaixaDestaque(props) {
         <section className={styles.section}>
             <div className={styles.info}>
                 <h2>26, 27 e 28</h2>
-                <h4>de maio</h4>
+                <h4>de maio de 2022</h4>
             </div>
             <div className={styles.info}>
                 <h2>Salão Nobre</h2>
-                <h4>Chapecó</h4>
+                <h4>Unochapecó - Chapecó / SC</h4>
             </div>
             <div className={styles.info}>
                 <h2>Evento Híbrido</h2>
-                <h4>Remoto e presencial</h4>
+                <h4>Presencial e online</h4>
             </div>
         </section>
     )
