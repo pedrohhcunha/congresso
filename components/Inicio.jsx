@@ -1,4 +1,7 @@
 import styles from '../styles/Inicio.module.scss'
+import Image from 'next/image'
+import logo from '../public/images/logos/logo.png'
+
 export default function Inicio(props) {
     return(
         <section id="Inicio" className={styles.section}>
@@ -13,7 +16,7 @@ export default function Inicio(props) {
                 <h5 className={styles.span}>{`"Security, Technology and Sustainability in Infection prevention and control"`}</h5>
             </div>
             <div className={styles.areaLogo}>
-
+                <Image src={logo} />
             </div>
         </section>
     )
