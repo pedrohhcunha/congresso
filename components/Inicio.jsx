@@ -9,7 +9,7 @@ export default function Inicio(props) {
                 <div className={styles.areaNome}>
                     <h1 className={styles.numero}>{"1°"}</h1>
                     <div className={styles.areaRight}>
-                        <h1 className={styles.contis}>CONTIS</h1>
+                        <h1 className={styles.contis}>CONNTIS</h1>
                         <h1 className={styles.titulo}>Congresso <br /> Sul Brasileiro <br /> de Inovação em Saúde</h1>
                     </div>
                 </div>
