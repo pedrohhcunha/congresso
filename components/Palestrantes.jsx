@@ -9,6 +9,7 @@ import lediane from '../public/images/palestrantes/lidiane.jpeg'
 import victor from '../public/images/palestrantes/victor.jpeg'
 import isabela from '../public/images/palestrantes/isabela.jpeg'
 import taise from '../public/images/palestrantes/taise.jpeg'
+import gessy from '../public/images/palestrantes/gessy.jpeg'
 
 export default function Palestrantes(prosp) {
     const palestrantes = [
@@ -29,9 +30,9 @@ export default function Palestrantes(prosp) {
                 foto: fabiana,
             },
             {
-                nome: 'Gessy',
+                nome: 'Gessy de Morais',
                 cargo: 'Enfermeira',
-                foto: placeholder,
+                foto: gessy,
             },
             {
                 nome: 'Isabela Pisseti Piccinin',
