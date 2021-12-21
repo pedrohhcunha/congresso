@@ -5,7 +5,7 @@ import localImg from '../public/images/fotoCentro.jpeg'
 export default function Mapa(props) {
     return(
         <section className={styles.section}>
-
+            <h2 className={styles.titulo}>Saiba mais sobre o evento</h2>
             <div className={styles.topArea}>
                 <p className={styles.p}>
                 O I Congresso Sul brasileiro de Tecnologia e Inovação em Saúde: Security, technology and sustainability in infection prevention and control - CONTIS é um evento híbrido que acontecerá nos dias 26, 27 e 28 de maio de 2022, no Salão Nobre da Universidade Comunitária de Chapecó - Unochapecó na forma presencial. A transmissão ao vivo será disponibilizada para todo o território brasileiro, a partir da confirmação de cadastro no evento.

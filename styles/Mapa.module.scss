@@ -1,6 +1,14 @@
 .section{
     width: 100%;
     padding: 50px 5vw;
+    text-align: center;
+
+    .titulo{
+        color: var(--blue);
+        font-size: 35px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
 
     .topArea{   
         display: flex;
