@@ -22,11 +22,12 @@ export default function Mapa(props) {
                     <Image src={localImg} layout='fill' />
                 </div>
             </div>
+            <h5>Veja aqui a localização do evento</h5>
             <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.9808982679688!2d-52.66866168433962!3d-27.093898207312037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b506aca00669%3A0x685086c4948b557e!2sUnochapec%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1639678338386!5m2!1spt-BR!2sbr"
-                    loading="lazy"
-                    className={styles.mapa}>
-                </iframe>   
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.9808982679688!2d-52.66866168433962!3d-27.093898207312037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b506aca00669%3A0x685086c4948b557e!2sUnochapec%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1639678338386!5m2!1spt-BR!2sbr"
+                loading="lazy"
+                className={styles.mapa}>
+            </iframe>   
         </section>       
     )
 }

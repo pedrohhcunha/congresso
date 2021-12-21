@@ -14,7 +14,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
 
         .p{
             width: 45%;
@@ -43,6 +43,12 @@
                 width: 100%;
             }
         }
+    }
+
+    h5{
+        color: var(--blue);
+        text-align: left;
+        margin-bottom: 10px;
     }
 
     .mapa{
