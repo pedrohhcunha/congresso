@@ -42,4 +42,17 @@
         filter: brightness(.8);
         -webkit-filter: brightness(.8);
     }
+
+    &.marginBottom{
+
+        @media screen and (max-width: 500px) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &.marginLeft{
+        @media screen and (min-width: 500px) {
+            margin-left: 10px;
+        }
+    }
 }
