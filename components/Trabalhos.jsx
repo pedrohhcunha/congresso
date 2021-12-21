@@ -17,7 +17,8 @@ export default function Trabalhos(props) {
                     </div>
                 </div>
                 <h2 className={styles.frase}>
-                    “No Brasil, a taxa de infecção hospitalar chega a 14%”.
+                    “No Brasil, a taxa de infecção hospitalar chega a 14%”. 
+                    <strong> (OMS, 2021)</strong>
                 </h2> 
                 <div className="botoes">
                     <Button>Submeter trabalhos</Button>

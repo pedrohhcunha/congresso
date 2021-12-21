@@ -18,7 +18,14 @@
             color: var(--white);
             font-size: 50px;
             width: 100%;
+
+            max-width: 1000px;
+            margin: 0 auto;
             margin-bottom: 20px;
+
+            strong{
+                font-size: 16px;
+            }
         }
 
         .datas{
