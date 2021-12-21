@@ -8,11 +8,11 @@ export default function Trabalhos(props) {
             <div className={styles.topArea}>
                 <div className={styles.datas}>
                     <div className={styles.data}>
-                        <h3 className={styles.tituloData}>30 de abril</h3>
+                        <h3 className={styles.tituloData}>Até 30/03</h3>
                         <h5 className={styles.textoData}>Submissão de resumos</h5>
                     </div>
                     <div className={styles.data}>
-                        <h3 className={styles.tituloData}>20 de março</h3>
+                        <h3 className={styles.tituloData}>Até 30/04</h3>
                         <h5 className={styles.textoData}>Divulgação dos resultados</h5>
                     </div>
                 </div>
