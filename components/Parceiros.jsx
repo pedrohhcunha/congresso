@@ -35,49 +35,31 @@ export default function Parceiros(props) {
             </div>
             <div className={styles.parceiros}>
                 <div className={styles.parceiro}>
-                    <a href="https://onfinity.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da ONFINITY" src={onfinity} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da ONFINITY" src={onfinity} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://septi.life.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da SEPTI HEALTHCARE" src={septi} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da SEPTI HEALTHCARE" src={septi} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://www.azeplast.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da AZEPLAT" src={azeplast} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da AZEPLAT" src={azeplast} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://weikki.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da WEIKKI" src={wk} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da WEIKKI" src={wk} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://onfinity.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da GREEN BAGS" src={greenbags} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da GREEN BAGS" src={greenbags} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://transconda.com.br/pt/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da RIOQUIMICA" src={transconda} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da RIOQUIMICA" src={transconda} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://rioquimica.com.br/pt/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da RIOQUIMICA" src={rioquimica} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da RIOQUIMICA" src={rioquimica} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://pollen.com.br/pt/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da RIOQUIMICA" src={pollen} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da RIOQUIMICA" src={pollen} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://unochapeco.com.br/pt/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da RIOQUIMICA" src={unochapeco} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da RIOQUIMICA" src={unochapeco} className={styles.image} />
                 </div>
             </div>
 
@@ -86,34 +68,22 @@ export default function Parceiros(props) {
             </div>
             <div className={styles.parceiros}>
                 <div className={styles.parceiro}>
-                    <a href="https://berry.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da BERRY" src={berry} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da BERRY" src={berry} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://qualisinfectologia.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da BERRY" src={qualis} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da BERRY" src={qualis} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://hust.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da BERRY" src={hust} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da BERRY" src={hust} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://unimed.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da BERRY" src={unimed} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da BERRY" src={unimed} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://unimed.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da HCPS" src={hcpf} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da HCPS" src={hcpf} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://udesc.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da udesc" src={udesc} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da udesc" src={udesc} className={styles.image} />
                 </div>
             </div>
 
@@ -122,19 +92,13 @@ export default function Parceiros(props) {
             </div>
              <div className={styles.parceiros}>
                 <div className={styles.parceiro}>
-                    <a href="https://uffs.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da UFFS" src={uffs} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da UFFS" src={uffs} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://fapesc.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da BERRY" src={fapesc} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da BERRY" src={fapesc} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <a href="https://unoesc.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da unoesc" src={unoesc} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da unoesc" src={unoesc} className={styles.image} />
                 </div>
             </div>
 
@@ -143,9 +107,7 @@ export default function Parceiros(props) {
             </div>
             <div className={styles.parceiros}>
                 <div className={styles.parceiro}>
-                    <a href="https://facesc.com.br/" rel="noreferrer" target="_blank">
-                        <Image alt="Logo oficial da BERRY" src={facesc} className={styles.image} />
-                    </a>
+                    <Image alt="Logo oficial da BERRY" src={facesc} className={styles.image} />
                 </div>
             </div>
         </section>
