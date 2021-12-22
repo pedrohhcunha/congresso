@@ -3,6 +3,8 @@ import styles from '../styles/Modal.module.scss'
 import Formulario from './Formulario'
 import { useEffect } from 'react'
 import Head from 'next/head'
+import { faTimes } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Modal(props) {
     const [statusProgress, setStatusProgress] = useState(0);
@@ -25,6 +27,9 @@ export default function Modal(props) {
                         <Formulario updateStatus={() => setStatusProgress(1)} />
                     }
                     <div id="even3-widget-ticket" height="auto" className={styles.even}></div>
+                </div>
+                <div onClick={props.closeModal} className={styles.closeModal}>
+                    <FontAwesomeIcon className={styles.iconClose} icon={faTimes}/>
                 </div>
             </aside>
         </>
