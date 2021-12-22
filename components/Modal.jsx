@@ -16,7 +16,7 @@ export default function Modal(props) {
         <>
             <Head>
                 {loaded &&
-                    <script async src={`https://www.even3.com.br/widget/js?e=testeEvento2022&t=ticket`}></script>
+                    <script async src={`https://www.even3.com.br/widget/js?e=contis&t=ticket`}></script>
                 }
             </Head>
             <aside className={`${styles.aside} ${props.isOpen ? styles.active : ''} ${statusProgress >= 1 ? styles.evenAtual : ''}`}>
