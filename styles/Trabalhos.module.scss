@@ -2,6 +2,7 @@
     width: 100%;
     background-color: var(--blue);
     text-align: center;
+    padding-bottom: 20px;
 
     .titulo{
         color: var(--white);
@@ -102,7 +103,7 @@
         -o-transition: .3s;
         width: 500px;
         margin: 0 auto;
-        
+        max-width: 90vw;
         &:hover{
             filter: brightness(.8);
             -webkit-filter: brightness(.8);
@@ -110,7 +111,7 @@
         }
 
         @media screen and (max-width: 500px) {
-            width: 100%;
+            max-width: 90vw;
         }
     }
 }
