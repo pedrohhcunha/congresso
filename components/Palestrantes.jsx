@@ -13,7 +13,12 @@ import gessy from '../public/images/palestrantes/gessy.jpeg'
 import bruno from '../public/images/palestrantes/bruno.jpg'
 import luciane from '../public/images/palestrantes/luciane.jpg'
 
-export default function Palestrantes(prosp) {
+import { useState } from 'react'
+
+export default function Palestrantes(props) {
+
+    const [verMais, setVerMais] = useState(false);
+
     const palestrantes = [
         [
             {
@@ -83,10 +88,11 @@ export default function Palestrantes(prosp) {
         <section id="Palestrantes" className={styles.section}>
             <h2 className={styles.titulo}>Palestrantes confirmados</h2>
             <div className={styles.palestrantes}>
-                {palestrantes[0].map((palestrante, index) => (
+                {palestrantes[0].filter((palestrante, index) => !verMais ? index <= 5 : true).map((palestrante, index) => (
                     <Palestrante key={index} palestrante={palestrante} index={index} />
                 ))}
             </div>
+            <button onClick={() => setVerMais(!verMais)} className={styles.button}>{verMais ? "Ver menos" : "Ver mais"}</button>
         </section>
     )
 }

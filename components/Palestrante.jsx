@@ -6,10 +6,12 @@ export default function Palestrante(props) {
 
     const [isVisible, setIsVisible] = useState(false);
 
-    const elementIsVisible = el => {        
-        if(el.getBoundingClientRect().bottom <= window.innerHeight) {
-            setIsVisible(true)
-            console.log("viu")
+    const elementIsVisible = el => {      
+        if(el){
+            if(el.getBoundingClientRect().bottom <= window.innerHeight) {
+                setIsVisible(true)
+                console.log("viu")
+            }
         }
     }
 
