@@ -17,7 +17,7 @@ import { useState } from 'react'
 
 export default function Palestrantes(props) {
 
-    const [verMais, setVerMais] = useState(false);
+    const [verMais, setVerMais] = useState(window.screen.width >= 600);
 
     const palestrantes = [
         [
