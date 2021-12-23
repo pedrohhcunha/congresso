@@ -137,7 +137,7 @@ export default function Cronograma(props) {
                         <p style={{transform: `translateX(-${sliders.slide3 * 100}%)`}} className={styles.content}>
                             <strong>10h30 - Case de sucesso</strong>
                             <br />
-                            Avanços e perspectivas no campos das inovações em saúde: segurança, tecnologia e sustentabilidade em prevenção e controle de infecções hospitalares.
+                            Avanços e perspectivas no campo da inovação em saúde: segurança, tecnologia e sustentabilidade em prevenção e controle de infecções hospitalares.
                             <br /> <br />
                             <strong>11h30 - Encerramento do evento</strong>
                             <br />
