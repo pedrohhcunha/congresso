@@ -9,6 +9,9 @@ import wk from '../public/images/parceiros/wk_parceiro.png'
 import transconda from '../public/images/parceiros/transconda_parceiro.png'
 import pollen from '../public/images/parceiros/pollen_parceiro.png'
 import unochapeco from '../public/images/parceiros/unochapeco_parceiro.png'
+import hrsp from '../public/images/parceiros/hrsp_parceiro.png'
+import hcr from '../public/images/parceiros/hcr_parceiro.png'
+import hsds from '../public/images/parceiros/hsds_parceiro.png'
 
 import berry from '../public/images/parceiros/berry_parceiro.png'
 import qualis from '../public/images/parceiros/qualis_parceiro.png'
@@ -60,6 +63,15 @@ export default function Parceiros(props) {
                 </div>
                 <div className={styles.parceiro}>
                     <Image alt="Logo oficial da RIOQUIMICA" src={unochapeco} className={styles.image} />
+                </div>
+                <div className={styles.parceiro}>
+                    <Image alt="Logo oficial da HRSP" src={hrsp} className={styles.image} />
+                </div>
+                <div className={styles.parceiro}>
+                    <Image alt="Logo oficial da HCR" src={hcr} className={styles.image} />
+                </div>
+                <div className={styles.parceiro}>
+                    <Image alt="Logo oficial da HSDS" src={hsds} className={styles.image} />
                 </div>
             </div>
 
