@@ -1,6 +1,6 @@
 import styles from '../styles/SubFooter.module.scss'
 import Button from './Button'
-import logo from '../public/images/logos/logoParaFundoBranco.png'
+import logo from '../public/images/logos/logoParaFundoRoxo.png'
 import Image from  'next/image'
 import Link from 'next/link'
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -12,7 +12,7 @@ export default function SubFooter(props) {
             <div className={styles.areaLogo}>
                 <Image src={logo} className={styles.image} />
             </div>
-            <h2>25, 26 e 27 de Dezembro</h2>
+            <h2>25, 26 e 27 de dezembro</h2>
             <div className={styles.socialMedia}>
                 <Link href="https://www.instagram.com/contisbrasil/" target="__blank">
                     <a className={styles.rede}>
