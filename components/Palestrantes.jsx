@@ -13,11 +13,15 @@ import gessy from '../public/images/palestrantes/gessy.jpeg'
 import bruno from '../public/images/palestrantes/bruno.jpg'
 import luciane from '../public/images/palestrantes/luciane.jpg'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function Palestrantes(props) {
 
-    const [verMais, setVerMais] = useState(window.screen.width >= 600);
+    const [verMais, setVerMais] = useState(false);
+
+    useEffect(() => {
+        setVerMais(window.screen.width >= 600)
+    }, []);
 
     const palestrantes = [
         [
