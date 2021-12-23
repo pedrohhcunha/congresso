@@ -7,7 +7,7 @@ export default function Inicio(props) {
         <section id="Inicio" className={styles.section}>
             <div className={styles.areaContent}>
                 <div className={styles.areaNome}>
-                    <h1 className={styles.numero}>{"1°"}</h1>
+                    <h1 className={styles.numero}>{"I"}</h1>
                     <div className={styles.areaRight}>
                         <h1 className={styles.contis}>CONTIS</h1>
                         <h1 className={styles.titulo}>Congresso <br /> Sul Brasileiro <br /> de Inovação em Saúde</h1>
