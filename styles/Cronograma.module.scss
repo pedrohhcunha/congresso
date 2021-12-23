@@ -124,8 +124,9 @@
         .subSection{
             flex-wrap: wrap;
             padding: 0;
+            margin-top: 25px;
 
-            &:nth-child(2n){
+            &:nth-child(3){
                 flex-wrap: wrap-reverse;
             }
 
