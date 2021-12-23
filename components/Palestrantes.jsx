@@ -10,6 +10,8 @@ import victor from '../public/images/palestrantes/victor.jpeg'
 import isabela from '../public/images/palestrantes/isabela.jpeg'
 import taise from '../public/images/palestrantes/taise.jpeg'
 import gessy from '../public/images/palestrantes/gessy.jpeg'
+import bruno from '../public/images/palestrantes/bruno.jpg'
+import luciane from '../public/images/palestrantes/luciane.jpg'
 
 export default function Palestrantes(prosp) {
     const palestrantes = [
@@ -63,6 +65,16 @@ export default function Palestrantes(prosp) {
                 nome: 'Victor Eduardo Gnoatto',
                 cargo: 'Engenheiro químico',
                 foto: victor,
+            },
+            {
+                nome: 'Bruno Zanardo',
+                cargo: 'Médico Infectologista',
+                foto: bruno,
+            },
+            {
+                nome: 'Luciane Bonamim',
+                cargo: 'Farmacêutica e Bioquímica',
+                foto: luciane,
             }
         ]
     ]
