@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import styles from '../styles/Formulario.module.scss'
 import axios from 'axios'
+import InputMask from "react-input-mask";
 
 export default function Formulario(props) {
 
@@ -37,7 +38,7 @@ export default function Formulario(props) {
             </div>
             <div className={styles.areaInput}>
                 <label className={styles.label}>Telefone</label>
-                <input onChange={event => handleInput(event)} type="text" name="telefone" className={styles.input} />
+                <InputMask value={dataForm.telefone} mask="(99) 99999-9999" onChange={event => handleInput(event)} type="text" name="telefone" className={styles.input} />
             </div>
             <div className={styles.areaInput}>
                 <label className={styles.label}>Profissão</label>
