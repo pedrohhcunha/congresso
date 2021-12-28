@@ -13,7 +13,7 @@ export default function Inicio(props) {
                         <h1 className={styles.titulo}>Congresso <br /> Sul Brasileiro <br /> de Inovação em Saúde</h1>
                     </div>
                 </div>
-                <h5 className={styles.span}>{`"Security, Technology and Sustainability in Infection prevention and control"`}</h5>
+                <h5 className={styles.span}>{`"Safety, Technology and Sustainability in Infection prevention and control"`}</h5>
             </div>
             <div className={styles.areaLogo}>
                 <Image src={logo} />
