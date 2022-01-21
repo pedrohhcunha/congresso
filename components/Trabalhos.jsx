@@ -21,7 +21,9 @@ export default function Trabalhos(props) {
                     <strong> (OMS, 2021)</strong>
                 </h2> 
                 <div className="botoes">
-                    <Button>Submeter trabalhos</Button>
+                    <Button onClick={() => {
+                        window.location.href = "https://www.even3.com.br/participante/trabalhocientifico/"
+                    }}>Submeter trabalhos</Button>
                 </div>
             </div>
             <div className={styles.areaTopicos}>
