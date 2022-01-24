@@ -16,7 +16,6 @@ import hsds from '../public/images/parceiros/HSDS_parceiro.png'
 import berry from '../public/images/parceiros/berry_parceiro.png'
 import qualis from '../public/images/parceiros/qualis_parceiro.png'
 import hust from '../public/images/parceiros/hust_parceiro.png'
-import unimed from '../public/images/parceiros/unimed_parceiro.png'
 
 import fapesc from '../public/images/parceiros/fapesc_parceiro.png'
 import uffs from '../public/images/parceiros/uffs_parceiro.png'
@@ -87,9 +86,6 @@ export default function Parceiros(props) {
                 </div>
                 <div className={styles.parceiro}>
                     <Image alt="Logo oficial da BERRY" src={hust} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da BERRY" src={unimed} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
                     <Image alt="Logo oficial da HCPS" src={hcpf} className={styles.image} />
