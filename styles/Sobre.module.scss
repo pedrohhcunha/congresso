@@ -16,6 +16,12 @@
     .areaInfo{
         width: 45%;
 
+        .title{
+            font-size: 45px;
+            color: var(--purple);
+            font-weight: 800;
+        }
+
         .p{
             text-align: justify;
             color: var(--white);
