@@ -45,9 +45,23 @@
                 align-items: center;
                 justify-content: center;
                 list-style: none;
-                padding: 0 10px;
                 font-weight: 600;
                 color: var(--purple);
+                background-color: var(--white);
+                height: 100%;
+                transition: .3s all;
+
+                a{
+                    height: 100%;
+                    padding: 0 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                &:hover{
+                    filter: brightness(.8);
+                }
             }
         }
     }
