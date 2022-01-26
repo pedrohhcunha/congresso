@@ -25,10 +25,10 @@ export default function Header(props) {
                         <Link href="/#Sobre"><a>Sobre o congresso</a></Link>
                     </li>
                     <li className={styles.itemLista}>
-                        <Link href="/#Cronograma"><a>Cronograma</a></Link>
+                        <Link href="/#Palestrantes"><a>Palestrantes</a></Link>
                     </li>
                     <li className={styles.itemLista}>
-                        <Link href="/#Palestrantes"><a>Palestrantes</a></Link>
+                        <Link href="/#Cronograma"><a>Cronograma</a></Link>
                     </li>
                     <li className={styles.itemLista}>
                         <Link href="/#Trabalhos"><a>Submissão de trabalhos</a></Link>
