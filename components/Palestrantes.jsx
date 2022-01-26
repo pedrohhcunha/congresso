@@ -29,61 +29,73 @@ export default function Palestrantes(props) {
                 nome: 'Carolina Ponzi',
                 cargo: 'Médica infectologista',
                 foto: placeholder,
+                texto: ""
             },
             {
                 nome: 'Daivana Kunz',
                 cargo: 'Enfermeira',
                 foto: placeholder,
+                texto: ""
             },
             {
                 nome: 'Fabiana Meneghetti Dallacosta',
                 cargo: 'Enfermeira',
                 foto: fabiana,
+                texto: "Enfermeira, especialista em Nefrologia e em Terapia Intensiva. Mestre em Saúde Coletiva, Doutora em Ciências da Saúde. Atualmente é coordenadora do Mestrado em Biociências e Saúde da Unoesc, onde atua como docente e pesquisadora desenvolvendo estudos com ênfase nas doenças crônicas não transmissíveis. "
             },
             {
                 nome: 'Gessy de Morais',
                 cargo: 'Enfermeira',
                 foto: gessy,
+                texto: ""
             },
             {
                 nome: 'Isabela Pisseti Piccinin',
                 cargo: 'Farmacêutica',
                 foto: isabela,
+                texto: "Farmacêutica bioquímica responsável técnica de laboratório de análises clínicas e gestora de laboratório, pela terceira vez na área hospitalar atua na gestão de suprimentos de materiais e medicamentos. Graduada pela Unochapecó com especialização em Análises Clínicas e pós-graduação em Análises Clínicas. Tem 15 anos de experiência na área de gestão hospitalar e gestão de processos e pessoas na área farmacêutica. "
             },
             {
                 nome: 'Leticia Stefenon',
                 cargo: 'Cirurgiã-dentista',
                 foto: leticia,
+                texto: "Dentista, doutora e mestre em Clínicas Odontológicas, com especialização em Patologia Bucal e Saúde Pública. Docente nas disciplinas de Patologia Geral, Patologia Oral e Estomatologia na FASURGS, onde atua também como Coordenadora de Iniciação Científica Pesquisa e Extensão, participa do Colegiado do Curso de Odontologia e do Núcleo Docente Estruturante (NDE) do mesmo curso."
             },
             {
                 nome: 'Lidiane Riva Pagnussat',
                 cargo: 'Farmacêutica',
                 foto: lediane,
+                texto: "Farmacêutica do Serviço de Controle de Infecção e Núcleo de Segurança do Paciente do HCR Marau-RS. Professora, mestra em Envelhecimento Humano e especialista em Residência Multiprofissional. Pós-graduada em Farmacologia Clínica e Farmácia Clínica em Infectologia."
             },
             {
                 nome: 'Rodrigo Santos',
                 cargo: 'Médico Infectologista',
                 foto: rodrigo,
+                texto: "Médico internista, infectologista e fundador da Qualis. Doutor em Ciências Médicas, com PhD em Clínica Médica. Coordenador da Comissão de Controle de Infecção do Hospital de Clínicas de Porto Alegre. Professor do Programa de Pós-Graduação da Fundação Universidade de Cardiologia. Foi consultor da ANVISA para medicamentos em 2005."
             },
             {
                 nome: 'Taíse Klein',
                 cargo: 'Enfermeira',
                 foto: taise,
+                texto: "Enfermeira do Serviço de Controle de Infecção Hospitalar do Hospital Universitário da Universidade Federal de Santa Catarina. Especialista em Prevenção e Controle de Infecção pela UNIFESP, Mestre e Doutora em Enfermagem pela Universidade Federal de Santa Catarina."
             },
             {
                 nome: 'Victor Eduardo Gnoatto',
                 cargo: 'Engenheiro químico',
                 foto: victor,
+                texto: "Engenheiro Químico e Químico Ambiental, é Gerente de Desenvolvimento de Produto para América Latina, Black Belt. Especialista em Lean Six Sigma, atua há mais de 10 anos na indústria termoplástica em segmentos como médico-hospitalar e cuidados com a saúde. Lidera novos desenvolvimentos de produtos para América Latina na Berry."
             },
             {
                 nome: 'Bruno Zanardo',
                 cargo: 'Médico Infectologista',
                 foto: bruno,
+                texto: 'Médico Infectologista, formado na UFMS e Residência Médica pelo Hospital Nereu Ramos (SC). Bolsista do CNPq e pesquisador em "Parentalidade e Filhos com Deficiência" e "Homofobia na área da saúde". Experiência na área de diversidade sexual, pais de crianças com deficiência e saúde pública com ênfase em DST/Aids. Iniciou sua atuação na área da Hansenologia. '
             },
             {
                 nome: 'Luciane Bonamim',
                 cargo: 'Farmacêutica e Bioquímica',
                 foto: luciane,
+                texto: ""
             }
         ]
     ]
