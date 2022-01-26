@@ -49,12 +49,6 @@ export default function Parceiros(props) {
                     <Image alt="Logo oficial da WEIKKI" src={wk} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da GREEN BAGS" src={greenbags} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da RIOQUIMICA" src={transconda} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
                     <Image alt="Logo oficial da RIOQUIMICA" src={rioquimica} className={styles.image} />
                 </div>
                 <div className={styles.parceiro}>
