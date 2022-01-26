@@ -32,84 +32,92 @@ export default function Parceiros(props) {
         <section id="Parceiros" className={styles.section}>
             <h2 className={styles.titulo}>Conheça os apoiadores do evento</h2>
 
-            <div className={styles.areaSubtitulo}>
-                <h3 className={styles.subtitulo}>Patrocinadores Ouro</h3>
-            </div>
-            <div className={styles.parceiros}>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da ONFINITY" src={onfinity} className={styles.image} />
+            <div className={styles.group}>
+                <div className={styles.areaSubtitulo}>
+                    <h3 className={styles.subtitulo}>Patrocinadores Ouro</h3>
                 </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da SEPTI HEALTHCARE" src={septi} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da AZEPLAT" src={azeplast} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da WEIKKI" src={wk} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da RIOQUIMICA" src={rioquimica} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da RIOQUIMICA" src={pollen} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da RIOQUIMICA" src={unochapeco} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da HRSP" src={hrsp} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da HCR" src={hcr} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da HSDS" src={hsds} className={styles.image} />
-                </div>
-            </div>
-
-            <div className={styles.areaSubtitulo}>
-                <h3 className={styles.subtitulo}>Apoiadores Ouro</h3>
-            </div>
-            <div className={styles.parceiros}>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da BERRY" src={berry} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da BERRY" src={qualis} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da BERRY" src={hust} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da HCPS" src={hcpf} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da udesc" src={udesc} className={styles.image} />
+                <div className={styles.parceiros}>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da ONFINITY" src={onfinity} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da SEPTI HEALTHCARE" src={septi} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da AZEPLAT" src={azeplast} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da WEIKKI" src={wk} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da RIOQUIMICA" src={rioquimica} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da RIOQUIMICA" src={pollen} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da RIOQUIMICA" src={unochapeco} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da HRSP" src={hrsp} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da HCR" src={hcr} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da HSDS" src={hsds} className={styles.image} />
+                    </div>
                 </div>
             </div>
 
-            <div className={styles.areaSubtitulo}>
-                <h3 className={styles.subtitulo}>Apoiadores Prata</h3>
-            </div>
-             <div className={styles.parceiros}>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da UFFS" src={uffs} className={styles.image} />
+            <div className={styles.group}>
+                <div className={styles.areaSubtitulo}>
+                    <h3 className={styles.subtitulo}>Apoiadores Ouro</h3>
                 </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da BERRY" src={fapesc} className={styles.image} />
-                </div>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da unoesc" src={unoesc} className={styles.image} />
+                <div className={styles.parceiros}>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da BERRY" src={berry} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da BERRY" src={qualis} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da BERRY" src={hust} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da HCPS" src={hcpf} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da udesc" src={udesc} className={styles.image} />
+                    </div>
                 </div>
             </div>
 
-            <div className={styles.areaSubtitulo}>
-                <h3 className={styles.subtitulo}>Patrocinadores Bronze</h3>
+            <div className={styles.group}>
+                <div className={styles.areaSubtitulo}>
+                    <h3 className={styles.subtitulo}>Apoiadores Prata</h3>
+                </div>
+                <div className={styles.parceiros}>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da UFFS" src={uffs} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da BERRY" src={fapesc} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da unoesc" src={unoesc} className={styles.image} />
+                    </div>
+                </div>
             </div>
-            <div className={styles.parceiros}>
-                <div className={styles.parceiro}>
-                    <Image alt="Logo oficial da BERRY" src={facesc} className={styles.image} />
+
+            <div className={styles.group}>
+                <div className={styles.areaSubtitulo}>
+                    <h3 className={styles.subtitulo}>Patrocinadores Bronze</h3>
+                </div>
+                <div className={styles.parceiros}>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da BERRY" src={facesc} className={styles.image} />
+                    </div>
                 </div>
             </div>
         </section>

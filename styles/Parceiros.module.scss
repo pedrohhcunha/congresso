@@ -7,53 +7,53 @@
     .titulo{
         color: var(--blue);
         font-size: 40px;
-        margin-bottom: 40px;
         text-align: center;
     }
 
-    .areaSubtitulo{
-        padding: 10px 10px;
-        background-color: var(--purple);
-        width: 300px;
+    .group{
         display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 20px 0;
-        box-shadow: -5px 5px 0 var(--blue);
-
-        @media screen and (max-width: 500px) {
-            width: 100%;
-        }
-
-        .subtitulo{
-            color: var(--white);
-        }
-    }
-
-
-    .parceiros{
-        display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: flex-start;
-        flex-wrap: wrap;
+        border-bottom: 1px dotted rgb(182, 182, 182);
+        padding: 50px;
 
-        .parceiro{
-            margin: 10px 20px;
-            width: 200px;
+        .areaSubtitulo{
+            min-width: 220px;
             height: 110px;
-            box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.1);
             display: flex;
             align-items: center;
-            justify-content: center;
-            padding: 10px;
-            border-radius: 10px;
-            -webkit-border-radius: 10px;
-            -moz-border-radius: 10px;
-            -ms-border-radius: 10px;
-            -o-border-radius: 10px;
-
-            @media screen and (max-width: 500px) {
-                width: 45%;
+            margin: 10px 0;
+            justify-content:flex-start;
+            .subtitulo{
+                color: var(--purple);
+            }
+        }
+    
+    
+        .parceiros{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+    
+            .parceiro{
+                margin: 10px 20px;
+                width: 200px;
+                height: 110px;
+                box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+    
+                @media screen and (max-width: 500px) {
+                    width: 45%;
+                }
             }
         }
     }
