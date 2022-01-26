@@ -26,6 +26,9 @@ export default function Palestrante(props) {
             </div>
             <h4 className={styles.tituloPalestrante}>{props.palestrante.nome}</h4>
             <h5 className={styles.cargo}>{props.palestrante.cargo}</h5>
+            <div className={styles.areaText}>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eum laboriosam modi magni repellat odio consectetur dolor, ullam culpa cum! Temporibus earum possimus provident, itaque nemo cum atque sed ad!</p>
+            </div>
         </div>
     )
 }
