@@ -1,12 +1,37 @@
-import styles from '../styles/Participe.module.scss'
+import styles from '../styles/ParticipeB.module.scss'
 import Button from './Button'
 
 export default function Participe(props) {
     return(
         <section className={styles.section}>
-            <div className={styles.content}>
-                <h2 className={styles.titulo}>Garanta a sua vaga no congresso!</h2>
-                <Button onClick={props.openModal} >GARANTIR MINHA VAGA</Button>
+            <h2 className={styles.titulo}>Garanta a sua vaga no congresso!</h2>
+            <div className={styles.options}>
+                <div className={styles.option}>
+                    <h2 className={styles.title}>Submeter resumos</h2>
+                    <p className={styles.paragraph}>
+                        Concorra ao prêmio de melhor pesquisa CONTIS. <br />
+                        Submeter resumos até 30/03.
+                    </p>
+                    <button onClick={() => {
+                        window.location.href = "https://www.even3.com.br/participante/trabalhocientifico/"
+                    }} className={styles.button}>Enviar meu resumo</button>
+                </div>
+                <div className={styles.option}>
+                    <h2 className={styles.title}>Ser parecerista</h2>
+                    <p className={styles.paragraph}>
+                        Contribua para a produção de conhecimento.
+                    </p>
+                    <button onClick={props.openModal} className={styles.button}>Enviar meu cadastro</button>
+                </div>
+                <div className={styles.option}>
+                    <h2 className={styles.title}>Visitante</h2>
+                    <p className={styles.paragraph}>
+                        Garanta sua vaga no Congresso. Presencial ou online.
+                    </p>
+                    <button onClick={() => {
+                        window.location.href = "https://www.even3.com.br/participante/inscricao/"
+                    }} className={styles.button}>Comprar ingresso</button>
+                </div>
             </div>
         </section>
     )

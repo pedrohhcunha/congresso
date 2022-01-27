@@ -74,11 +74,11 @@ export default function Home() {
       <FaixaDestaque />
       <Sobre openModal={openModal} />
       <Palestrantes />
-      <Participe openModal={openModal} />
+      <ParticipeB openModal={openModal} />      
       <Diferenciais />
       <Cronograma />
       <Trabalhos />
-      <ParticipeB openModal={openModal} />
+      <Participe openModal={openModal} />
       <Parceiros />
       <Mapa />
       <SubFooter openModal={openModal} />
