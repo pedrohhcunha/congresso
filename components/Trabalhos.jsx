@@ -3,7 +3,7 @@ import Button from '../components/Button'
 
 export default function Trabalhos(props) {
     return(
-        <section id="Trabahos" className={styles.section}>
+        <section id="Trabalhos" className={styles.section}>
             <h2 className={styles.titulo}>Submissão de trabalhos</h2>
             <div className={styles.topArea}>
                 <div className={styles.datas}>
