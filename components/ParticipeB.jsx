@@ -3,7 +3,7 @@ import Button from './Button'
 
 export default function Participe(props) {
     return(
-        <section className={styles.section}>
+        <section id="ingressos" className={styles.section}>
             <h2 className={styles.titulo}>Garanta a sua vaga no congresso!</h2>
             <div className={styles.options}>
                 <div className={styles.option}>
