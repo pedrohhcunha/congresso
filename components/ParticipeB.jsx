@@ -21,7 +21,9 @@ export default function Participe(props) {
                     <p className={styles.paragraph}>
                         Contribua para a produção de conhecimento.
                     </p>
-                    <button onClick={props.openModal} className={styles.button}>Enviar meu cadastro</button>
+                    <button onClick={() => {
+                        window.location.href = "https://forms.gle/Frd7TUHrv8YxF8Ry9"
+                    }} className={styles.button}>Enviar meu cadastro</button>
                 </div>
                 <div className={styles.option}>
                     <h2 className={styles.title}>Visitante</h2>
