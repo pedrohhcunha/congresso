@@ -83,5 +83,13 @@
             width: 100%;
             text-align: justify;
         }
+        .options{
+            flex-wrap: wrap;
+
+            .option{
+                width: 100%;
+                border: none;
+            }
+        }
     }
 }
