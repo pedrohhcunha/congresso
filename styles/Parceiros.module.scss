@@ -59,30 +59,38 @@
     }
 
     @media screen and (max-width: 1100px) {
+        .group{
+            flex-wrap: wrap;
 
-        .titulo{
-            font-size: 30px;
-        }
-
-        .parceiros{
-            justify-content: space-between;
-
-            .parceiro{
-                width: 30%;
-                height: 70px;
-                margin: 10px 0;
+            .areaSubtitulo{
+                width: 100%;
+            }
+            .titulo{
+                font-size: 30px;
+            }
+    
+            .parceiros{
+                justify-content: space-between;
+    
+                .parceiro{
+                    width: 30%;
+                    height: 70px;
+                    margin: 10px 0;
+                }
             }
         }
     }
 
     @media screen and (max-width: 500px) {
-
-        .parceiros{
-
-            .parceiro{
-                width: 48%;
-                height: 70px;
-                margin: 10px 0;
+        .group{
+            .parceiros{
+                justify-content: space-between;
+    
+                .parceiro{
+                    width: 50%;
+                    height: 70px;
+                    margin: 10px 0;
+                }
             }
         }
     }
