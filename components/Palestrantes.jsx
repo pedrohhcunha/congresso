@@ -12,6 +12,9 @@ import taise from '../public/images/palestrantes/taise.jpeg'
 import gessy from '../public/images/palestrantes/gessy.jpeg'
 import bruno from '../public/images/palestrantes/bruno.jpg'
 import luciane from '../public/images/palestrantes/luciane.jpg'
+import daivana from '../public/images/palestrantes/daivana.jpeg'
+import marinei from '../public/images/palestrantes/marinei.jpeg'
+import fabio from '../public/images/palestrantes/fabio.png'
 
 import { useEffect, useState } from 'react'
 
@@ -34,8 +37,8 @@ export default function Palestrantes(props) {
             {
                 nome: 'Daivana Kunz',
                 cargo: 'Enfermeira',
-                foto: placeholder,
-                texto: ""
+                foto: daivana,
+                texto: "Enfermeira com especialização em Terapia Intensiva. Mestre em Enfermagem, docente e orientadora de estágio do Curso Técnico em Enfermagem,  coordenadora da CIHDOTT e membro do Grupo de pesquisa PRÁXIS do PEN/UFSC."
             },
             {
                 nome: 'Fabiana Meneghetti Dallacosta',
@@ -96,7 +99,19 @@ export default function Palestrantes(props) {
                 cargo: 'Farmacêutica e Bioquímica',
                 foto: luciane,
                 texto: ""
-            }
+            },
+            {
+                nome: 'Marinei Ricieri',
+                cargo: 'Farmacêutica',
+                foto: marinei,
+                texto: "Farmacêutica clínica do Programa de Stewardship de Antimicrobianos, especialista líder do Núcleo de Pesquisa do HPP. Mestre em Biotecnologia, tutora da residência multiprofissional e membro da Diretoria Paraná da Sociedade Brasileira de Farmácia Hospitalar."
+            },
+            {
+                nome: 'Fábio de Araújo Motta',
+                cargo: 'Médico pediatra',
+                foto: fabio,
+                texto: "Médico pediatra, Gerente do Núcleo da Qualidade, Núcleo de Pesquisa Clínica e coordenador do Programa de Stewardship de Antimicrobianos do Hospital Pequeno Príncipe. Doutor em Biotecnologia aplicada à saúde da Criança e do Adolescente pela Faculdades Pequeno Príncipe, Mestre em Ciências da Saúde pela PUC-PR. Avaliador Líder do Sistema Brasileiro de Acreditação (ONA)."
+            },
         ]
     ]
 
