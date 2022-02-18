@@ -29,18 +29,18 @@ export default function Cronograma(props) {
                 <div className={styles.areaContentDia}>
                     <div className={styles.contents}>
                         <p style={{transform: `translateX(-${sliders.slide1 * 100}%)`}} className={styles.content}>
-                            <strong>18h - Abertura do evento</strong>
+                            <strong>18h - Abertura</strong>
                             <br /> <br />
                             <strong>19h - Palestra</strong>
                             <br />
                             A Revolução das Soluções Inteligentes na prevenção e controle das Infecções Hospitalares: durante e a após a pandemia da COVID-19
                         </p>
                         <p style={{transform: `translateX(-${sliders.slide1 * 100}%)`}} className={styles.content}>
-                            <strong>19h50 Mesa-redonda</strong>
+                            <strong>19h45 Mesa-redonda</strong>
                             <br />
                             Métodos inovadores na prevenção e controle de infecções: Gerenciamentos de múltiplos serviços
                             <br /><br />
-                            <strong>21h - Mesa-redonda</strong>
+                            <strong>21h15 - Mesa-redonda</strong>
                             <br />
                             O aumento das infecções por bactérias multirresistentes na pandemia Covid-19:Quais as evidências e como controlar.
                         </p>
@@ -80,16 +80,20 @@ export default function Cronograma(props) {
                             <br /><br />
                             <strong>14h30 - Palestra</strong>
                             <br />
-                            Medidas de controle e prevenção desinfecção de ambiente
+                            Medidas de controle e prevenção de infecções hospitalares em ambientes críticos
                         </p>
                         <p style={{transform: `translateX(-${sliders.slide2 * 100}%)`}} className={styles.content}>
                             <strong>15h45 - Palestra</strong>
                             <br />
-                            Higiene, limpeza e desinfecção de ambientes críticos, áreas semi-limpas e limpas.
+                            Segurança do paciente no preparo de pele: Importância e recomendações de tecnologias
                             <br /><br />
                             <strong>16h30 - Apresentação</strong>
                             <br />
-                            Apresentação dos 10 resumos mais bem avaliados pela equipe de pareceristas.
+                            Apresentação de pôster e vídeo-pôster
+                            <br /><br />
+                            <strong>19h - Palestra</strong>
+                            <br />
+                            I Encontro Catarinense de SCIRAS
                         </p>
                     </div>
                     <div className={styles.slideControl}>
@@ -130,15 +134,14 @@ export default function Cronograma(props) {
                             <br />
                             Estruturação de serviços de gestão de suprimentos em hospitais para garantir a segurança do paciente.
                             <br /> <br />
-                            <strong>09h40 - Case de sucesso</strong>
+                            <strong>09h40 - Palestra</strong>
                             <br />
                             Trabalho interdisciplinar nos ambientes de saúde e seu impacto nas tomadas de decisões.
                         </p>
                         <p style={{transform: `translateX(-${sliders.slide3 * 100}%)`}} className={styles.content}>
                             <strong>10h30 - Case de sucesso</strong>
                             <br />
-                            Avanços e perspectivas no campo da inovação em saúde: segurança, tecnologia e sustentabilidade em prevenção e controle de infecções hospitalares.
-                            <br /> <br />
+                            Programa de Stewardship como estratégia de uso criterioso de antimicrobianos e impacto farmacoeconômico                            <br /> <br />
                             <strong>11h30 - Encerramento do evento</strong>
                             <br />
                             Premiações dos Trabalhos Científicos <br />
