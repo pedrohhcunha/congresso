@@ -53,7 +53,7 @@ export default function Home() {
 
           gtag('config', 'AW-10828932296');`}}>
         </script>
-        <meta name="facebook-domain-verification" content="5eji43wbhixkmq5fpxc78etv27duax" />
+        <meta name="facebook-domain-verification" content="p7ggm1dn5yisgl777d51y2h30279xv" />
         <script dangerouslySetInnerHTML={{ __html: `  !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
           n.callMethod.apply(n,arguments):n.queue.push(arguments)};
