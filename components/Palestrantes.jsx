@@ -29,12 +29,6 @@ export default function Palestrantes(props) {
     const palestrantes = [
         [
             {
-                nome: 'Carolina Ponzi',
-                cargo: 'Médica infectologista',
-                foto: placeholder,
-                texto: ""
-            },
-            {
                 nome: 'Daivana Kunz',
                 cargo: 'Enfermeira',
                 foto: daivana,
