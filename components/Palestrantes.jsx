@@ -44,7 +44,7 @@ export default function Palestrantes(props) {
                 nome: 'Gessy de Morais',
                 cargo: 'Enfermeira',
                 foto: gessy,
-                texto: ""
+                texto: "Enfermeira responsável pela CME do Hospital Universitário Santa Terezinha (HUST) a 6 anos. Especialista em UTI-Adulto pela FSF(Faculdade São Fidélis). Atualmente cursando MBA Gestão em saúde, controle de infecção e MBA Gestão em centro de Material e Esterilização pela FACEAT ."
             },
             {
                 nome: 'Isabela Pisseti Piccinin',
@@ -92,7 +92,7 @@ export default function Palestrantes(props) {
                 nome: 'Luciane Bonamim',
                 cargo: 'Farmacêutica e Bioquímica',
                 foto: luciane,
-                texto: ""
+                texto: "Farmacêutica e Bioquímica com Especialização em Farmácia Hospitalar, com mais de 15 anos de experiência em Processos e Qualidade na área hospitalar. Atualmente é Especialista de Produtos da Indústria Farmacêutica Rioquímica (região Sul) com atuação na Linha de Preparo de Pele."
             },
             {
                 nome: 'Marinei Ricieri',
