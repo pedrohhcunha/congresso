@@ -51,7 +51,7 @@ export default function Formulario(props) {
                     <option value="Outro">Outro(a)</option>
                 </select>
             </div>
-            <button className={styles.button}>Participar</button>
+            <button className={styles.button}>Ver ingressos</button>
         </form>
     )
 }
