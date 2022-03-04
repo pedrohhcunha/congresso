@@ -60,4 +60,21 @@
             -webkit-filter: brightness(.8);
         }
     }
+
+    .errorDiv{
+        background: red;
+        border-radius: 6px;
+        color: white;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        align-content: center;
+
+        .span{
+            font-weight: 700;
+            text-align: center;
+            margin-top: 8px;
+        }
+    }
 }

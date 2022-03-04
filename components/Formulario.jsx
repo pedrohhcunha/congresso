@@ -12,18 +12,28 @@ export default function Formulario(props) {
         profissao: ""
     })
 
+    const [error, setError] = useState(null)
+
     const handleInput = event => {
         setDataForm({...dataForm, [event.target.name]: event.target[event.target.selectedIndex] ? event.target[event.target.selectedIndex].value : event.target.value})
     }
 
     const handleSubmit = event => {
         event.preventDefault()
-        console.log(dataForm)
-
-        axios.post('/api/convert', dataForm).then(response => {
-            console.log(response.data)
-            props.updateStatus()
-        })
+        
+        if(dataForm.nome && dataForm.email && dataForm.telefone && dataForm.profissao){
+            axios.post('/api/convert', dataForm).then(response => {
+                console.log(response.data)
+                if(response.data.success){
+                    props.updateStatus()
+                    setError(null)
+                } else {
+                    setError(response.data.message)
+                }
+            })
+        } else {
+            setError("Por favor, preencha todos os campos")
+        }
     }
 
     return(
@@ -52,6 +62,11 @@ export default function Formulario(props) {
                 </select>
             </div>
             <button className={styles.button}>Ver ingressos</button>
+            {error ?
+                <div className={styles.errorDiv}>
+                    <span className={styles.span}>{error}</span>
+                </div>
+            : ""}
         </form>
     )
 }
