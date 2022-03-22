@@ -3,15 +3,15 @@ import styles from '../styles/Parceiros.module.scss'
 import septi from '../public/images/parceiros/septi_parceiro.png'
 import azeplast from '../public/images/parceiros/azeplast_parceiro.png'
 import rioquimica from '../public/images/parceiros/rioquimica_parceiro.png'
-import greenbags from '../public/images/parceiros/greenbags_parceiro.png'
 import onfinity from '../public/images/parceiros/onfinity_parceiro.png'
-import wk from '../public/images/parceiros/wk_parceiro.png'
-import transconda from '../public/images/parceiros/transconda_parceiro.png'
+import wk from '../public/images/parceiros/weikki.png'
 import pollen from '../public/images/parceiros/pollen_parceiro.png'
 import unochapeco from '../public/images/parceiros/unochapeco_parceiro.png'
 import hrsp from '../public/images/parceiros/HRSP_parceiro.png'
 import hcr from '../public/images/parceiros/HCR_parceiro.png'
 import hsds from '../public/images/parceiros/HSDS_parceiro.png'
+import pequenoPrincipe from '../public/images/parceiros/pequeno_principe.png'
+import taiji from '../public/images/parceiros/taiji.jpg'
 
 import berry from '../public/images/parceiros/berry_parceiro.png'
 import qualis from '../public/images/parceiros/qualis_parceiro.png'
@@ -106,6 +106,12 @@ export default function Parceiros(props) {
                     </div>
                     <div className={styles.parceiro}>
                         <Image alt="Logo oficial da unoesc" src={unoesc} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da taiji" src={taiji} className={styles.image} />
+                    </div>
+                    <div className={styles.parceiro}>
+                        <Image alt="Logo oficial da taiji" src={pequenoPrincipe} className={styles.image} />
                     </div>
                 </div>
             </div>
