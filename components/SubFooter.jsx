@@ -12,7 +12,7 @@ export default function SubFooter(props) {
             <div className={styles.areaLogo}>
                 <Image src={logo} className={styles.image} />
             </div>
-            <h2>25, 26 e 27 de dezembro</h2>
+            <h2>26, 27 e 28 de maio</h2>
             <div className={styles.socialMedia}>
                 <Link href="https://www.instagram.com/contisbrasil/" target="__blank">
                     <a className={styles.rede}>
