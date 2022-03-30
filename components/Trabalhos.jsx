@@ -8,7 +8,7 @@ export default function Trabalhos(props) {
             <div className={styles.topArea}>
                 <div className={styles.datas}>
                     <div className={styles.data}>
-                        <h3 className={styles.tituloData}>Até 30/03</h3>
+                        <h3 className={styles.tituloData}>Até 10/04</h3>
                         <h5 className={styles.textoData}>Submissão de resumos</h5>
                     </div>
                     <div className={styles.data}>

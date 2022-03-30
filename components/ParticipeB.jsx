@@ -10,7 +10,7 @@ export default function Participe(props) {
                     <h2 className={styles.title}>Submeter resumos</h2>
                     <p className={styles.paragraph}>
                         Concorra ao prêmio de melhor pesquisa CONTIS. <br />
-                        Submeter resumos até 30/03.
+                        Submeter resumos até 10/04.
                     </p>
                     <button onClick={() => {
                         window.location.href = "https://www.even3.com.br/participante/trabalhocientifico/"
