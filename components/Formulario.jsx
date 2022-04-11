@@ -58,6 +58,7 @@ export default function Formulario(props) {
                     <option value="Estudante2">Estudante de curso de Pós-Graduação</option>
                     <option value="Médico">Médico(a)</option>
                     <option value="Enfermeiro">Enfermeiro(a)</option>
+                    <option value="Farmacêutico">Farmacêutico(a)</option>
                     <option value="Outro">Outro(a)</option>
                 </select>
             </div>
