@@ -37,6 +37,9 @@ export default function Trabalhos(props) {
             <div className={styles.link}>
                 <a target="__blank" className={styles.a} href="document.pdf">Clique aqui para acessar o regulamento e eixos temáticos.</a>
             </div>
+            <div className={styles.link}>
+                <a target="__blank" className={styles.a} href="template.pdf">Acesse aqui o template do pôster para apresentação.</a>
+            </div>
         </section>
     )
 }
