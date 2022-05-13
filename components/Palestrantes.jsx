@@ -15,6 +15,7 @@ import luciane from '../public/images/palestrantes/luciane.jpg'
 import daivana from '../public/images/palestrantes/daivana.jpeg'
 import marinei from '../public/images/palestrantes/marinei.jpeg'
 import fabio from '../public/images/palestrantes/fabio.png'
+import manuela from '../public/images/palestrantes/manuela.jpeg'
 
 import { useEffect, useState } from 'react'
 
@@ -28,6 +29,12 @@ export default function Palestrantes(props) {
 
     const palestrantes = [
         [
+            {
+                nome: 'Manuela Correa De Quadro',
+                cargo: 'Enfermeira',
+                foto: manuela,
+                texto: 'Enfermeira Coordenadora do Serviço de Controle de Infecção Hospitalar do HUST. Especialização MBA em Controle de Infecção e Gestão em Saúde, Urgência e Emergência e Habilitação em Tratamento de Feridas.'
+            },
             {
                 nome: 'Daivana Kunz',
                 cargo: 'Enfermeira',
