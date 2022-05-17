@@ -44,7 +44,7 @@ export default function Trabalhos(props) {
                 <a target="__blank" className={styles.a} href="template_video.pdf">Acesse aqui o template do vídeo para apresentação.</a>
             </div>
             <div className={styles.link}>
-                <a target="__blank" className={styles.a} href="regras.pdf">Acesse aqui as regras para apresentação e avaliação do vídeo.</a>
+                <a target="__blank" className={styles.a} href="regras.pptx">Acesse aqui as regras para apresentação e avaliação do vídeo.</a>
             </div>
         </section>
     )
