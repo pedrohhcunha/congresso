@@ -15,6 +15,7 @@ import Trabalhos from '../components/Trabalhos'
 import FaixaDestaque from '../components/FaixaDestaque'
 import Modal from '../components/Modal'
 import { useEffect, useState } from 'react'
+import SubHeader from '../components/SubHeader.jsx'
 
 export default function Home() {
 
@@ -71,6 +72,7 @@ export default function Home() {
         />`}}
         />
       </Head>
+      {/* <SubHeader /> */}
       <Header openModal={openModal} />
       <Inicio />
       <FaixaDestaque />

@@ -1,0 +1,15 @@
+.link{
+    background: #893189;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
