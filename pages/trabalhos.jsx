@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Modal from '../components/Modal'
 import { useEffect, useState } from 'react'
 import TrabalhosList from '../components/TrabalhosList.jsx'
+import SubHeader from '../components/SubHeader.jsx'
 
 export default function Home() {
 
@@ -36,6 +37,7 @@ export default function Home() {
           Security, technology and sustainability in infection prevention and control.
         " />
       </Head>
+      <SubHeader />
       <Header openModal={openModal} />
       <TrabalhosList />
       <SubFooter openModal={openModal} />
