@@ -6,7 +6,7 @@ export default function TrabalhosList() {
         {
             title: 'CARACTERIZACAO FÍSICO-QUÍMICA DE FARINHAS OBTIDAS A PARTIR DE COPRODUTOS DA ABÓBORA (Cucurbita Moschata).Resumo Expandido / Eixo Ii - Tecnologias E Inovações Em Saúde',
             author: 'Apresentador: Tiago Soares',
-            url: 'https://www.youtube.com/embed/CIMcuojH_T4',
+            url: 'https://www.youtube.com/embed/Nj1O-_0v1WE',
         },
         {
             title: 'CONSULTA DE ENFERMAGEM NO PRÉ-NATAL BAIXO RISCOResumo Expandido / Eixo I - Gestão E Educação Em Saúde',
@@ -42,6 +42,11 @@ export default function TrabalhosList() {
             title: 'ATUAÇÃO DA EQUIPE MULTIPROFISSIONAL DE TERAPIA NUTRICIONAL EM UM HOSPITAL PÚBLICO: RELATO DE EXPERIÊNCIAResumo Expandido / Eixo Iii - Relatos De Experiências E/Ou Experiência Exitosas Em Saúde',
             author: 'Apresentador: Ericka Vilar Bôtto Targino',
             url: 'https://www.youtube.com/embed/2Dh39bB6nJ0',
+        },
+        {
+            title: 'COMPOSTOS FENÓLICOS TOTAIS, FLAVONÓIDES E CAPACIDADE ANTIOXIDANTE EM COPRODUTOS DA FARINHA DA ABÓBORA (Cucurbita Moschata).Resumo Expandido / Eixo Ii - Tecnologias E Inovações Em Saúde',
+            author: 'Apresentador: Tiago Soares',
+            url: 'https://www.youtube.com/embed/CIMcuojH_T4'
         }
     ] 
     return(
