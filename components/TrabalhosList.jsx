@@ -56,9 +56,9 @@ export default function TrabalhosList() {
             <div className={styles.videos}>
                 {videos.map((video, index) => (
                     <div key={index} className={styles.video}>
+                        <YoutubeVideo url={video.url} />
                         <h3 className={styles.title}>{video.title}</h3>
                         <p className={styles.author}>{video.author}</p>
-                        <YoutubeVideo url={video.url} />
                     </div>
                 ))}
             </div>
